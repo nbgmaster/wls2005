@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+<table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
+=======
+<table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
+>>>>>>> af2fff1... version1
+               
+  <tr>
+
+    <td class="tablea" align="center" width="50%">
+    
+    <b><font class="big">
+
+    <a href="index.php?do=admin&sec=new_cat">Neue Kategorie erstellen</a>
+
+    </font></b>
+    
+    </td>
+
+    <td class="tableb" align="center" width="50%">
+   
+    <b><font class="big">
+
+    <a href="index.php?do=admin&sec=new_forum">Neues Forum erstellen</a>
+
+    </font></b>
+
+    </td>
+
+  </tr>
+    
+</table>
