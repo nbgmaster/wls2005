@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
   $query_cats = mysql_query("SELECT * from $c_tblname ORDER by id");
 

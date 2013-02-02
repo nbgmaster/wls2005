@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   // Check:: Inbox or Outbox variables
 

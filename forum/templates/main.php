@@ -2,7 +2,7 @@
 
     <td class="tablea">
 
-<<<<<<< HEAD
+
     <img src="images/templates/<?php  echo"$template/$img_newposts"; ?>">
 
     </td>
@@ -15,7 +15,7 @@
     <br>
 
     <?php   echo"".$row_forums["description"].""; ?>
-=======
+
     <img src="images/templates/<? echo"$template/$img_newposts"; ?>">
 
     </td>
@@ -28,17 +28,14 @@
     <br>
 
     <?  echo"".$row_forums["description"].""; ?>
->>>>>>> af2fff1... version1
+
           
     </td>
 
     <td class="tablea" align="center">
 
-<<<<<<< HEAD
+
     <?php 
-=======
-    <?
->>>>>>> af2fff1... version1
 
       if ($mods != "")  {  
 
@@ -72,7 +69,7 @@
     </td>
            
     <td class="tableb" align="center">
-<<<<<<< HEAD
+
     <?php  echo"$topic"; ?>
     </td>
 
@@ -100,7 +97,7 @@
 
     <a href="<?php  echo"$show_link"; ?>"><img src="images/templates/<?php  echo"$template"; ?>/last_reply.gif" border="0"></a>
     <?php  } ?>
-=======
+
     <? echo"$topic"; ?>
     </td>
 
@@ -128,7 +125,7 @@
 
     <a href="<? echo"$show_link"; ?>"><img src="images/templates/<? echo"$template"; ?>/last_reply.gif" border="0"></a>
     <? } ?>
->>>>>>> af2fff1... version1
+
 
     </td>
 

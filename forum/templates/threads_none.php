@@ -1,10 +1,10 @@
 <br>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="5" cellspacing="1">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="5" cellspacing="1">
->>>>>>> af2fff1... version1
+
                
   <tr>
 

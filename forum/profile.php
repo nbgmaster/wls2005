@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
   $query_user = mysql_query("SELECT * from $user_tblname WHERE UserID = '$user_id'");
 

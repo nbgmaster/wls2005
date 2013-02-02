@@ -7,21 +7,21 @@ function update_smiley(newimage)
 //-->
 </script>
 
-<<<<<<< HEAD
+
 <table cellpadding="4" cellspacing="1" border="0" width="<?php  echo"$width"; ?>" class="tableinborder">
-=======
+
 <table cellpadding="4" cellspacing="1" border="0" width="<? echo"$width"; ?>" class="tableinborder">
->>>>>>> af2fff1... version1
+
    
 <tr><td class="tablea">
 
 <select name="smile_url" onchange="update_smiley(this.options[selectedIndex].value);">
 
-<<<<<<< HEAD
+
 <?php 
-=======
+
 <?
->>>>>>> af2fff1... version1
+
 
   $verz=opendir ('./images/smiles/');
 
@@ -76,10 +76,10 @@ function update_smiley(newimage)
 
 <br>
 
-<<<<<<< HEAD
+
 <table cellpadding="4" cellspacing="1" border="0" width="<?php  echo"$width"; ?>" class="tableinborder">
-=======
+
 <table cellpadding="4" cellspacing="1" border="0" width="<? echo"$width"; ?>" class="tableinborder">
->>>>>>> af2fff1... version1
+
    
   <tr>

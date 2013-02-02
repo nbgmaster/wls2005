@@ -7,26 +7,15 @@ function OpenNewWindow(Picture,Breit,Hoch)
 ScreenWidth = screen.width;
 ScreenHeight = screen.height;
 
-<<<<<<< HEAD
 <?php  if($browser!="sonstigerBrowser") { ?>
 xsize = Breit+6;
 ysize = Hoch+21; 
 <?php  } else { ?>
-=======
-<? if($browser!="sonstigerBrowser") { ?>
-xsize = Breit+6;
-ysize = Hoch+21; 
-<? } else { ?>
->>>>>>> af2fff1... version1
 
 xsize = Breit+6;
 ysize = Hoch+54; 
 
-<<<<<<< HEAD
 <?php  } ?>
-=======
-<? } ?>
->>>>>>> af2fff1... version1
 
 
 window.defaultStatus="Zum Schlieﬂen einfach auf das Bild klicken!";
@@ -60,11 +49,7 @@ function center_position(w,h,url,n)
 
 </script>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
@@ -78,17 +63,10 @@ include('kursfotos_variablen.php');
 
 <table width=695><tr><td align=left>
 <br>
-<<<<<<< HEAD
 <b><?php echo"$bildname";?></b></font>
 </td><td align=right><br>
 
 <?php 
-=======
-<b><?echo"$bildname";?></b></font>
-</td><td align=right><br>
-
-<?
->>>>>>> af2fff1... version1
 
 $z="0";
 $blaaa="$p_bild$z$show_picture";

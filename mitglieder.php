@@ -10,11 +10,7 @@ function center_position(w,h,url,n)
 <br>
 <img src=images/community.jpg>
 <br>
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
@@ -40,11 +36,7 @@ if($do=="delete") { echo"<font color=red>User gelöscht!</font><br>"; }
 
 <img src=images/arrow_r.gif> <b>Sortierungsmethode:</b> &nbsp;
 
-<<<<<<< HEAD
 <?php  if($order=="UserName") { 
-=======
-<? if($order=="UserName") { 
->>>>>>> af2fff1... version1
 
 if($preg=="ASC") {
 
@@ -62,11 +54,7 @@ if($preg=="ASC") {
          <option value="index.php?page=members&order=online">gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 else {
 
@@ -82,11 +70,7 @@ else {
          <option value="index.php?page=members&order=online">gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 }}
 
@@ -109,11 +93,7 @@ if($preg=="ASC") {
          <option value="index.php?page=members&order=online">gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 }
@@ -134,11 +114,7 @@ else {
          <option value="index.php?page=members&order=online">gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 }
 }
@@ -159,11 +135,7 @@ if($order=="beitraege") {
          <option value="index.php?page=members&order=online">gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 }
@@ -185,11 +157,7 @@ if($order=="ehemalige") {
          <option value="index.php?page=members&order=online">gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 }
 
@@ -210,11 +178,7 @@ if($order=="online") {
          <option value="index.php?page=members&order=online" selected>gerade Online</option>
          </select>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 }
@@ -223,11 +187,7 @@ if($order=="online") {
 
 
 </td><td width=2></td><td valign=center align=right>
-<<<<<<< HEAD
 <img src=images/arrow_r.gif>  Neuestes Mitglied: <?php echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$usid','window')\"><b>$newest_m</b></a> am $reg_m2";?>
-=======
-<img src=images/arrow_r.gif>  Neuestes Mitglied: <?echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$usid','window')\"><b>$newest_m</b></a> am $reg_m2";?>
->>>>>>> af2fff1... version1
 </td></tr></form>
 </table>
 
@@ -235,11 +195,7 @@ if($order=="online") {
 <table width=680><tr><td>
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($do=="delete")  {
 

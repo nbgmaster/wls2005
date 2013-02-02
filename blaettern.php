@@ -7,11 +7,7 @@ function center_position(w,h,url,n)
 	win.focus();
 }
 </script>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 function getUser($pager, $cat_id, $thread_id, $save_id)

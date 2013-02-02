@@ -1,10 +1,10 @@
 <form method="post" action="index.php?do=post">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -12,15 +12,15 @@
 
      <br>
 
-<<<<<<< HEAD
+
      <img src="images/templates/<?php  echo"$template/arrow_r.gif"; ?>">
 
      <b>Sie können nun ihre Umfrage zu dem Thema "<?php  echo"$title"; ?>" hinzufügen</b>
-=======
+
      <img src="images/templates/<? echo"$template/arrow_r.gif"; ?>">
 
      <b>Sie können nun ihre Umfrage zu dem Thema "<? echo"$title"; ?>" hinzufügen</b>
->>>>>>> af2fff1... version1
+
 
      <br><br>
 
@@ -74,17 +74,17 @@
 
      <br>
 
-<<<<<<< HEAD
+
      <input type="hidden" name="title" value="<?php  echo"$title"; ?>">
      <input type="hidden" name="message" value="<?php  echo"$message"; ?>">
      <input type="hidden" name="f" value="<?php  echo"$f"; ?>">
      <input type="hidden" name="attachment" value="<?php  echo"$attachment"; ?>">
-=======
+
      <input type="hidden" name="title" value="<? echo"$title"; ?>">
      <input type="hidden" name="message" value="<? echo"$message"; ?>">
      <input type="hidden" name="f" value="<? echo"$f"; ?>">
      <input type="hidden" name="attachment" value="<? echo"$attachment"; ?>">
->>>>>>> af2fff1... version1
+
 
      <input type="submit" value="Umfrage starten"> 
 

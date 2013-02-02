@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php  include('sb_config.php'); ?>
-=======
-<? include('sb_config.php'); ?>
->>>>>>> af2fff1... version1
 
 <html>
 <head>
@@ -12,28 +8,16 @@
 <link rel="stylesheet" href="shoutbox.css">
 
 
-<<<<<<< HEAD
 <?php  include('style.php'); ?>
-=======
-<? include('style.php'); ?>
->>>>>>> af2fff1... version1
 
 
 </head>
 
-<<<<<<< HEAD
 <body bgcolor="<?php echo"$bgcolor";?>">
 
 <table cellspacing="0" cellpadding="2"><tr><td align="center" width="<?php echo"$width";?>">
 
 <?php 
-=======
-<body bgcolor="<?echo"$bgcolor";?>">
-
-<table cellspacing="0" cellpadding="2"><tr><td align="center" width="<?echo"$width";?>">
-
-<?
->>>>>>> af2fff1... version1
 
 
 if($dosb=="del") {

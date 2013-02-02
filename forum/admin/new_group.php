@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php      
-=======
-<?     
->>>>>>> af2fff1... version1
 
   if (isset($send_group_data))  { 
 

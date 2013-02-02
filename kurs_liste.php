@@ -9,11 +9,7 @@ function center_position(w,h,url,n)
 </script>
 
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 
   if (!empty($_GET))     extract($_GET);
@@ -44,11 +40,7 @@ include('config.php');
 <meta http-equiv="imagetoolbar" content="no">
 <body bgcolor="#ffc08a" onClick='self.close()' leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  $show_profil = mysql_query("select * from $kurs_tblname WHERE id='$profil_id' LIMIT 1");
 
@@ -140,11 +132,7 @@ $show_kurs3 = mysql_query("select * from $kurs_tblname ORDER BY nachname LIMIT 5
 
 ?><br><img src=images/kursliste.jpg><br><br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
  if($cookie_check_abicalypse=="allowed") 
 
 { 
@@ -154,11 +142,7 @@ $show_kurs3 = mysql_query("select * from $kurs_tblname ORDER BY nachname LIMIT 5
    <table cellspacing="5" width=220 cellpadding=3 border=0>
 
 
-<<<<<<< HEAD
  <?php 
-=======
- <?
->>>>>>> af2fff1... version1
 
 
 
@@ -182,11 +166,7 @@ echo"</table>";
   <table cellspacing="5" width=220 cellpadding=3 border=0>
 
 
-<<<<<<< HEAD
  <?php 
-=======
- <?
->>>>>>> af2fff1... version1
 
             while  ($row  =  mysql_fetch_row($show_kurs2)) {
 
@@ -209,11 +189,7 @@ echo"</table>";
   <table cellspacing="5" width=220 cellpadding=3 border=0>
 
 
-<<<<<<< HEAD
  <?php 
-=======
- <?
->>>>>>> af2fff1... version1
 
             while  ($row  =  mysql_fetch_row($show_kurs3)) {
 
@@ -232,11 +208,7 @@ echo"</table>";
 
 ?></td></tr></table><br>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 
 else { echo"<br><br><b><font class=forum>Sorry, du bist nicht eingeloggt!</font></b><br>";

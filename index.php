@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
      if ( isset($_GET['did']) )  {
@@ -58,11 +54,7 @@ if ($pager <= 0) $pager=1; }
 
 <tr><td width="18">&nbsp;</td>
 
-<<<<<<< HEAD
 <?php  if($browser=="sonstigerBrowser") { echo"<td width=\"271\" style=\"line-height:16px;\">"; }
-=======
-<? if($browser=="sonstigerBrowser") { echo"<td width=\"271\" style=\"line-height:16px;\">"; }
->>>>>>> af2fff1... version1
 
 else { echo"<td width=\"23\" style=\"line-height:20px;\">"; }
 
@@ -71,11 +63,7 @@ else { echo"<td width=\"23\" style=\"line-height:20px;\">"; }
 <script type="text/javascript" src="http://newsticker.shortnews.de/de/js/free/3/b.js"></script>
 
 </td>
-<<<<<<< HEAD
 <?php  if($browser=="sonstigerBrowser") {echo"<td valign=\"top\" width=\"695\">"; }
-=======
-<? if($browser=="sonstigerBrowser") {echo"<td valign=\"top\" width=\"695\">"; }
->>>>>>> af2fff1... version1
 
 else { echo"<td valign=\"top\" width=\"700\">"; } 
 
@@ -102,11 +90,7 @@ else { echo"<td valign=\"top\" width=\"700\">"; }
 <td width="210">
 <img src="images/title.jpg">
 <br>&nbsp;&nbsp;&nbsp;
-<<<<<<< HEAD
 <font class=portrait2><i>current date: <?php  echo"$datum, $uhrzeit"; ?></i></font>
-=======
-<font class=portrait2><i>current date: <? echo"$datum, $uhrzeit"; ?></i></font>
->>>>>>> af2fff1... version1
 </td></tr></table>
 
 </td></tr>
@@ -127,11 +111,7 @@ Shoutbox
 </td></tr>
 <tr><td background="gfx/sb_02.gif" width="210" align="center">
 
-<<<<<<< HEAD
 <?php  include('shoutbox/shoutbox.php'); ?>
-=======
-<? include('shoutbox/shoutbox.php'); ?>
->>>>>>> af2fff1... version1
 
 </td></tr>
 
@@ -170,30 +150,18 @@ Shoutbox
 <tr><td width="1" colspan="2"></td>
 <td width="330" valign="top">
 
-<<<<<<< HEAD
 <?php  include('top_news.php'); ?>
-=======
-<? include('top_news.php'); ?>
->>>>>>> af2fff1... version1
 
 
 </td><td valign="top" width="199">
 
 
-<<<<<<< HEAD
 <?php  include('top_login.php'); ?>
-=======
-<? include('top_login.php'); ?>
->>>>>>> af2fff1... version1
 
 
 </td><td valign="top">
 
-<<<<<<< HEAD
 <?php  include('top_counter.php'); ?>
-=======
-<? include('top_counter.php'); ?>
->>>>>>> af2fff1... version1
 
 
 </td></tr></table>
@@ -214,11 +182,7 @@ Content
 
 
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 if($mode=="login" or $mode=="logout") { echo"<br><br><br><br><i><font class=big>wird aktualisiert...</font></i>"; }
 

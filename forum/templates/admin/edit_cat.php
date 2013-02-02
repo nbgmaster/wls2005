@@ -2,7 +2,7 @@
 
     <td class="tablea">
 
-<<<<<<< HEAD
+
     <b><font class="title"><?php  echo"".$row_cats["title"].""; ?></font></b> 
 
     </td>
@@ -28,7 +28,7 @@
 
     <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif">
     <a href="index.php?do=admin&sec=edit_cat&module=delete&c=<?php  echo"".$row_cats["id"].""; ?>">löschen</a>
-=======
+
     <b><font class="title"><? echo"".$row_cats["title"].""; ?></font></b> 
 
     </td>
@@ -54,7 +54,7 @@
 
     <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif">
     <a href="index.php?do=admin&sec=edit_cat&module=delete&c=<? echo"".$row_cats["id"].""; ?>">löschen</a>
->>>>>>> af2fff1... version1
+
 
     </td>
 

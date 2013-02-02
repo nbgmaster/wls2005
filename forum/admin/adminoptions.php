@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   if ($_POST[adminoptions] == "movetopic")  {
 
@@ -66,12 +62,14 @@
 
   if ($_POST[adminoptions] == "deletetopic")  {
 
-      if ($send_del_data == "Ja"
+      if ($send_del_data == "Ja") {
 
       $text01 = "Dieses Thema wirklich löschen?";
 
       $link = "javascript:history.back();";
  
       include("templates/delete.php");
+	  
+	  }
 
   }

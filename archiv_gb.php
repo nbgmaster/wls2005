@@ -3,11 +3,7 @@
 Die Einträge des Gästebuchs von der alten Homepage sind hier aufgelistet:
 </font>
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   
 $data = mysql_query("select * from $gb_tblname");
@@ -70,11 +66,7 @@ $zzz=$igt-$side_forward;
 $zzz=$zzz-1;
 ?>
 <table width=700><tr><td>
-<<<<<<< HEAD
 <?php  echo"<b>($zzz)</b> <font color=#ff7f00> <b>$row[1]: </b></font>";
-=======
-<? echo"<b>($zzz)</b> <font color=#ff7f00> <b>$row[1]: </b></font>";
->>>>>>> af2fff1... version1
 
 
 
@@ -109,11 +101,7 @@ echo" <img src=images/arrow_r.gif> verfasst am <i>$row[7]</i>&nbsp;"; ?>
                             
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 echo"</td></tr></table><br>";
 
     }

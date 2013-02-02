@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
       $tempname    = $_FILES["file"]["tmp_name"]; 
       $filename    = $_FILES["file"]["name"]; 

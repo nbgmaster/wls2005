@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $check_data     = mysql_query("SELECT * from $threads_tblname WHERE f = '$f'");
 

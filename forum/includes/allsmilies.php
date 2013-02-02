@@ -1,10 +1,6 @@
 <script type="text/javascript" src="../javascript/smilies.js" language="JavaScript1.2"></script>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
   
   include("../config.php");
   include("../stylesheets/style.php");

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<style type=\"text/css\" >";
 echo"<!-- ";

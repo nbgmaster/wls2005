@@ -1,26 +1,26 @@
-<<<<<<< HEAD
+
 <a name="<?php  echo"".$row_posts["id"].""; ?>"></a>
 
 <?php  if ($do == "search")  { ?>
 
 <table width="<?php  echo"$width"; ?>" cellpadding="5" cellspacing="1" class="tableinborder">
-=======
+
 <a name="<? echo"".$row_posts["id"].""; ?>"></a>
 
 <? if ($do == "search")  { ?>
 
 <table width="<? echo"$width"; ?>" cellpadding="5" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
     <td class="tableb">
 
-<<<<<<< HEAD
+
     <font class="big"><b>Thema: <?php  echo"$topicname"; ?></b></font>
-=======
+
     <font class="big"><b>Thema: <? echo"$topicname"; ?></b></font>
->>>>>>> af2fff1... version1
+
 
     </td>
 
@@ -28,15 +28,15 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <?php  } ?>
 
 <table width="<?php  echo"$width"; ?>" cellpadding="0" cellspacing="1" class="tableinborder">
-=======
+
 <? } ?>
 
 <table width="<? echo"$width"; ?>" cellpadding="0" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
   
@@ -48,7 +48,7 @@
 
         <td class="tablea">
 
-<<<<<<< HEAD
+
         <?php  if ($post_user_name != "Gast")  { ?>
 
         <a href="index.php?do=profile&user_id=<?php  echo"$post_user_id"; ?>">
@@ -60,7 +60,7 @@
         <?php  if ($post_user_name != "Gast")  { ?> </a> <?php  } ?>
 
         <img src="images/templates/<?php  echo"$template/$gender_img"; ?>">
-=======
+
         <? if ($post_user_name != "Gast")  { ?>
 
         <a href="index.php?do=profile&user_id=<? echo"$post_user_id"; ?>">
@@ -72,20 +72,20 @@
         <? if ($post_user_name != "Gast")  { ?> </a> <? } ?>
 
         <img src="images/templates/<? echo"$template/$gender_img"; ?>">
->>>>>>> af2fff1... version1
+
 
 
         <br><br>
 
-<<<<<<< HEAD
+
         <?php  echo"$current_stars<br>$current_rank"; ?>
 
         <?php  if ($avatar != "")  { 
-=======
+
         <? echo"$current_stars<br>$current_rank"; ?>
 
         <? if ($avatar != "")  { 
->>>>>>> af2fff1... version1
+
 
         echo"<br>$avatar<br>"; 
 
@@ -99,11 +99,11 @@
 
             <td>
 
-<<<<<<< HEAD
+
             <img src="images/templates/<?php  echo"$template/arrow_r.gif"; ?>"> <b>Dabei seit:</b> <?php  echo"$datum_reg"; ?>
-=======
+
             <img src="images/templates/<? echo"$template/arrow_r.gif"; ?>"> <b>Dabei seit:</b> <? echo"$datum_reg"; ?>
->>>>>>> af2fff1... version1
+
 
             </td>
 
@@ -113,41 +113,41 @@
 
             <td>
 
-<<<<<<< HEAD
+
             <img src="images/templates/<?php  echo"$template/arrow_r.gif"; ?>"> <b>Beiträge:</b>&nbsp;&nbsp; <?php  echo"$postnumbers_user"; ?>
-=======
+
             <img src="images/templates/<? echo"$template/arrow_r.gif"; ?>"> <b>Beiträge:</b>&nbsp;&nbsp; <? echo"$postnumbers_user"; ?>
->>>>>>> af2fff1... version1
+
 
             </td>
 
           </tr>
 
-<<<<<<< HEAD
+
           <?php  if($user_place != "")  { ?>
-=======
+
           <? if($user_place != "")  { ?>
->>>>>>> af2fff1... version1
+
  
           <tr>
 
             <td>
 
-<<<<<<< HEAD
+
             <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> <b>Wohnort:</b>&nbsp;&nbsp; <?php  echo"".$user_place.""; ?>
-=======
+
             <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> <b>Wohnort:</b>&nbsp;&nbsp; <? echo"".$user_place.""; ?>
->>>>>>> af2fff1... version1
+
 
             </td>
 
           </tr>
 
-<<<<<<< HEAD
+
           <?php  } ?>
-=======
+
           <? } ?>
->>>>>>> af2fff1... version1
+
 
         </table>
 
@@ -161,27 +161,27 @@
 
     <td class="tablea" valign="top">
 
-<<<<<<< HEAD
+
     <table style="width:100%;border-bottom:1px solid <?php  echo"#$bordercolor"; ?>;" class="tableb">
-=======
+
     <table style="width:100%;border-bottom:1px solid <? echo"#$bordercolor"; ?>;" class="tableb">
->>>>>>> af2fff1... version1
+
 
       <tr>
 
         <td>
 
-<<<<<<< HEAD
+
         <?php  echo"<b>$topictitle</b>"; ?>
-=======
+
         <? echo"<b>$topictitle</b>"; ?>
->>>>>>> af2fff1... version1
+
 
         </td>
 
         <td align="right" valign="bottom">
 
-<<<<<<< HEAD
+
         <?php  if ($granted_write == "1")  { ?>
 
         <a href="index.php?t=<?php  echo"$t&do=reply"; ?>">
@@ -191,7 +191,7 @@
         &nbsp;
 
         <?php   }  
-=======
+
         <? if ($granted_write == "1")  { ?>
 
         <a href="index.php?t=<? echo"$t&do=reply"; ?>">
@@ -201,13 +201,13 @@
         &nbsp;
 
         <?  }  
->>>>>>> af2fff1... version1
+
 
         if ($do != "inbox" && $do != "outbox") { 
 
         if ($granted_write == "1")  {  ?>
 
-<<<<<<< HEAD
+
         <a href="index.php?t=<?php  echo"$t&do=reply&q_id=".$row_posts["id"].""; ?>">
 
         <?php  } ?>
@@ -241,7 +241,7 @@
         </a>
  
         <?php  } ?>
-=======
+
         <a href="index.php?t=<? echo"$t&do=reply&q_id=".$row_posts["id"].""; ?>">
 
         <? } ?>
@@ -275,7 +275,7 @@
         </a>
  
         <? } ?>
->>>>>>> af2fff1... version1
+
 
         </td>
 
@@ -289,15 +289,15 @@
 
         <td><font class="big">
 
-<<<<<<< HEAD
+
         <?php  echo"$main_message"; ?>
 
         <?php  echo"$attachment"; ?>
-=======
+
         <? echo"$main_message"; ?>
 
         <? echo"$attachment"; ?>
->>>>>>> af2fff1... version1
+
 
         </td>
 
@@ -309,11 +309,11 @@
 
         <br>
 
-<<<<<<< HEAD
+
         <?php   if ($user_signature != "" && $sig_disable == "0")  {  ?>
-=======
+
         <?  if ($user_signature != "" && $sig_disable == "0")  {  ?>
->>>>>>> af2fff1... version1
+
 
         <table cellspacing="0" cellpadding="0" style="width:100%;">
 
@@ -321,11 +321,11 @@
                                  
             <td style="line-height:15px;">_______________________<br>
 
-<<<<<<< HEAD
+
             <?php  echo"$user_signature"; ?>
-=======
+
             <? echo"$user_signature"; ?>
->>>>>>> af2fff1... version1
+
 
             </td>
 
@@ -333,19 +333,19 @@
 
         </table> 
 
-<<<<<<< HEAD
+
         <?php  }  if($row_posts["edittime"] != "" && $row_posts["edittime"] != "0") { ?>
 
         <br><br><i><font class="small">zuletzt editiert von <?php  echo"$edit_user"; ?> am <?php  echo"$edit_post_date, $edit_post_time"; ?> Uhr</font></i>
 
         <?php  }
-=======
+
         <? }  if($row_posts["edittime"] != "" && $row_posts["edittime"] != "0") { ?>
 
         <br><br><i><font class="small">zuletzt editiert von <? echo"$edit_user"; ?> am <? echo"$edit_post_date, $edit_post_time"; ?> Uhr</font></i>
 
         <? }
->>>>>>> af2fff1... version1
+
 
         if ($user_signature != "" && $sig_disable == "0")  {  
 
@@ -367,11 +367,11 @@
 
     <td class="tableb" align="center" style="height:25px;">
 
-<<<<<<< HEAD
+
     <img src="images/templates/<?php  echo"$template"; ?>/posticon.gif"> <?php  echo"$post_date, $post_time"; ?>
-=======
+
     <img src="images/templates/<? echo"$template"; ?>/posticon.gif"> <? echo"$post_date, $post_time"; ?>
->>>>>>> af2fff1... version1
+
 
     </td>
 
@@ -379,7 +379,7 @@
 
     &nbsp;
 
-<<<<<<< HEAD
+
     <img src="images/templates/<?php  echo"$template/$user_status"; ?>">
 
     &nbsp;
@@ -401,7 +401,7 @@
     &nbsp;           
          
     <a href="index.php?do=addbuddy&user_id=<?php  echo"$post_user_id"; ?>"><img src="images/templates/<?php  echo"$template"; ?>/icon_homie.gif" title="<?php  echo"$post_user_name2"; ?> zur Freundesliste hinzufügen" border="0"></a>
-=======
+
     <img src="images/templates/<? echo"$template/$user_status"; ?>">
 
     &nbsp;
@@ -423,7 +423,7 @@
     &nbsp;           
          
     <a href="index.php?do=addbuddy&user_id=<? echo"$post_user_id"; ?>"><img src="images/templates/<? echo"$template"; ?>/icon_homie.gif" title="<? echo"$post_user_name2"; ?> zur Freundesliste hinzufügen" border="0"></a>
->>>>>>> af2fff1... version1
+
         
     </td>
 

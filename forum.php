@@ -7,11 +7,7 @@ function center_position(w,h,url,n)
 	win.focus();
 }
 </script>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
@@ -191,11 +187,7 @@ if($thread_id=="") {
 <br>
 <img src=images/forum.jpg>
 <br><br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<div align=right><img src=images/arrow_r.gif> ";
 
@@ -335,11 +327,7 @@ echo"</table>";
 </table>
 <br><br>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 $sqlong = "UPDATE $user_tblname SET reglast = '$timestamp' WHERE UserID='$save_id'";     
@@ -608,11 +596,7 @@ echo"</tr</table>";
 
 <td><img src=images/newfolder.gif></td><td>Neue Beiträge</td></tr>
 </table><br>
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 
 }
@@ -731,11 +715,7 @@ else {
 <br>
 <img src=images/forum.jpg>
 <br><br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<br><br><b><font class=forum>Sorry, du bist nicht eingeloggt!</font></b><br>";
 echo"<br>Wenn du bereits registriert bist, logge dich oben mit deiner Emailadresse";

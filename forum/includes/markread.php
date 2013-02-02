@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $query_markread = "DELETE FROM $newposts_tblname WHERE user_id = '$userdata_id'"; 
 

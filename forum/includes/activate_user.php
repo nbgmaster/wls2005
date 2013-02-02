@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $query_act_code = mysql_query("SELECT * from $user_tblname WHERE activation_code = '$activation_code'");
 

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php   
-=======
-<?  
->>>>>>> af2fff1... version1
 
 
 if($cookie_check_abicalypse=="allowed") 
@@ -15,11 +11,7 @@ if($cookie_check_abicalypse=="allowed")
 <img src=images/community.jpg></td></tr></table>
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
  $show_user = mysql_query("select * from $user_tblname WHERE UserID='$user_id'");
@@ -105,11 +97,7 @@ txtarea.focus();
 }
 
 </script>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<form action=\"index.php?page=user_pm&user_id=$user_id&do=eintragen\" name=\"f_pm\" method=\"post\" style=\"display:inline;\" onsubmit=\"return check_pm()\">";
 
@@ -117,22 +105,14 @@ echo"<form action=\"index.php?page=user_pm&user_id=$user_id&do=eintragen\" name=
 <br><table width=680><tr><td align=center>
 <table>
 <tr><td width=100>
-<<<<<<< HEAD
 Dein Name:</td><td> <?php  echo"<font color=$color><b>$save_name</b></font>"; ?>
-=======
-Dein Name:</td><td> <? echo"<font color=$color><b>$save_name</b></font>"; ?>
->>>>>>> af2fff1... version1
 
 </td></tr>
 <tr><td>Betreff:</td><td><input type=text name=titel class=edit_p></td></tr>
 <tr><td valign=top style=line-height:20px;>
 Nachricht:
 </td><td>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<input type=\"hidden\" name=\"an\" value=\"$rowuser[1]\">";
 
@@ -165,11 +145,7 @@ echo"</tr></table><br>";
 </td>
 </tr></table>
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 echo"<input type=\"submit\" value=\"Abschicken\" name=\"pm_eintragen\" class=\"submit\">";
 
 echo"</form><br><br>";
@@ -196,10 +172,6 @@ else {
 <br><br>
 Dieser Bereich ist nur für registrierte Mitglieder sichtbar!
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 }

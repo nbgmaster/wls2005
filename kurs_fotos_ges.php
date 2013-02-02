@@ -1,9 +1,5 @@
 <script type="text/javascript" src="javascript/kursfotos_ges.js" language="JavaScript1.2"></script>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
@@ -15,17 +11,10 @@ if($p_bild=="gesamt13") { $bildname="Kursfoto K13"; }
 ?>
 <table width=695><tr><td align=left>
 <br>
-<<<<<<< HEAD
 <b><?php echo"$bildname";?></b></font>
 </td><td align=right><br>
 
 <?php 
-=======
-<b><?echo"$bildname";?></b></font>
-</td><td align=right><br>
-
-<?
->>>>>>> af2fff1... version1
 
 $z="0";
 $blaaa="$p_bild$z$show_picture";
@@ -37,11 +26,7 @@ $size2 = getimagesize($blubb2);
 $width=$size2[0];
 $height=$size2[1];
 
-<<<<<<< HEAD
 echo"<img src=images/arrow_r.gif><a href=\"javascript:OpenNewWindow('kurs_fotos_ges/$p_bild/big_picture/$blaaa.jpg',900,$height)\"><b> Bild vergr&ouml;&szlig;ern<b></a>";
-=======
-echo"<img src=images/arrow_r.gif><a href=\"javascript:OpenNewWindow('kurs_fotos_ges/$p_bild/big_picture/$blaaa.jpg',900,$height)\"><b> Bild vergrößern<b></a>";
->>>>>>> af2fff1... version1
 
 
 
@@ -75,19 +60,11 @@ echo"<br></td></tr></table><br>";
 
 
 
-<<<<<<< HEAD
 //$size = getimagesize($blubb);
 
 
 //$width=$size[0];
 //$height=$size[1];
-=======
-$size = getimagesize($blubb);
-
-
-$width=$size[0];
-$height=$size[1];
->>>>>>> af2fff1... version1
 
 
 

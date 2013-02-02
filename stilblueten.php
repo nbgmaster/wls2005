@@ -2,11 +2,7 @@
 <img src=images/stilblueten.jpg>
 <br><br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
 { ?>
@@ -41,11 +37,7 @@
 </td></tr><tr><td class=top>
 
 <img src=images/arrow_r.gif> Haas kommt nach dem „Klogang“ mit einem Duplo in der Hand wieder ins Klassenzimmer. Frau
-<<<<<<< HEAD
 Wolf-Bohne: „Du warst aber nicht am Klo“. Haas: Doch des hab ich ausm Fach“. ******: „Iih, hast
-=======
-Wolf-Bohne: „Du warst aber nicht am Klo“. Haas: Doch des hab ich ausm Fach“. Gila: „Iih, hast
->>>>>>> af2fff1... version1
 du ins Fach geschissen?“ Haas: Ne, des liegt aufm Weg“
 
 </td></tr><tr><td class=top>
@@ -94,11 +86,7 @@ Kurz danach: „Ihr wisst ja was passieren kann!“
 
 </td></tr><tr><td class=top>
 
-<<<<<<< HEAD
 <img src=images/arrow_r.gif> Frau Jacobi fragt ab. ****** schreibt derweilen in ihren Terminplaner. Antwortet vertieft und genervt:
-=======
-<img src=images/arrow_r.gif> Frau Jacobi fragt ab. Gila schreibt derweilen in ihren Terminplaner. Antwortet vertieft und genervt:
->>>>>>> af2fff1... version1
 „Jetz pscht ich muss mich konzentrieren!“
 
 </td></tr><tr><td class=top>
@@ -190,11 +178,7 @@ den Kopf. Jacobi: „Ficken, Ficken, Ficken!!!“ (hihihi)“
 </td></tr><tr><td class=top>
 
 <img src=images/arrow_r.gif> <b>Jacobi:</b> „Was sagt der Papst zu Homosexuellen?“
-<<<<<<< HEAD
 ******* genervt: „Curva?“
-=======
-Gila genervt: „Curva?“
->>>>>>> af2fff1... version1
 
 </td></tr><tr><td class=top>
 
@@ -210,11 +194,7 @@ Gila genervt: „Curva?“
 
 </td></tr></table>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 else { echo"<br><br><b><font class=forum>Sorry, du bist nicht eingeloggt!</font></b><br>";
 echo"<br>Wenn du bereits registriert bist, logge dich oben mit deiner Emailadresse";

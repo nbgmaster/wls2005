@@ -73,11 +73,7 @@ function center_position(w,h,url,n)
 	win.focus();
 }
 </script>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 

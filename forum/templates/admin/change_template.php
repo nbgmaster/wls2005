@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -12,11 +12,11 @@
 
     Template: <select name="tpl_name">
 
-<<<<<<< HEAD
+
     <?php 
-=======
+
     <?
->>>>>>> af2fff1... version1
+
 
       $query_template = mysql_query("SELECT * from $templates_tblname");
 

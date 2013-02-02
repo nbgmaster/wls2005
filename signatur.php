@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
@@ -108,20 +104,12 @@ txtarea.focus();
 
 </script>
 
-<<<<<<< HEAD
 <?php  echo"$widthimg"; ?>
-=======
-<? echo"$widthimg"; ?>
->>>>>>> af2fff1... version1
 <br>
 <font class=mitglieder>
 <b>Signatur bearbeiten:</b></font><br>
 
-<<<<<<< HEAD
 <?php  echo"<form  action=\"index.php?page=signatur&do=change\" method=\"post\" name=\"bbform\" onsubmit=\"return checkForm(this)\">";
-=======
-<? echo"<form  action=\"index.php?page=signatur&do=change\" method=\"post\" name=\"bbform\" onsubmit=\"return checkForm(this)\">";
->>>>>>> af2fff1... version1
 ?>
 <br>
 <table width=690><tr><td style="border:1px solid #000000;" bgcolor=#f8f8f8 valign=top width=160 align=center>
@@ -230,11 +218,7 @@ Optionen:<br><br>
 </table></td>
           </tr>
           <tr>
-<<<<<<< HEAD
            <td><textarea nowrap name="message" rows=15 cols=60 style="display:inline;"><?php  echo"$signatur2"; ?></textarea></td>
-=======
-           <td><textarea nowrap name="message" rows=15 cols=60 style="display:inline;"><? echo"$signatur2"; ?></textarea></td>
->>>>>>> af2fff1... version1
           </tr>
          </table> 
 
@@ -251,11 +235,7 @@ Optionen:<br><br>
 
 </td></tr></table>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 }
 

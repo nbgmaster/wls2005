@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 include('config.php');
 
 
@@ -86,11 +82,7 @@ function center_position(w,h,url,n)
 <table cellpadding='0' cellspacing='0'><tr><td align='center'>
 <table cellpadding='0' cellspacing='0' width=600><tr><td width=20></td><td><img src=images/arrow_r.gif> <b>Navigation:</b></td>
 <td align=center>
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 if($p_id > "1") {  
 
@@ -100,32 +92,18 @@ echo"<a onclick='javascript:parent.window.resizeTo($width2b,$height2b)' href=\"j
 }
 
 ?></td><td align=center>
-<<<<<<< HEAD
 &nbsp;&nbsp;Bild <?php  echo"<b>$p_id</b> von $reiheng"; ?>&nbsp;&nbsp;
 </td><td align=center>
 <?php  
-=======
-&nbsp;&nbsp;Bild <? echo"<b>$p_id</b> von $reiheng"; ?>&nbsp;&nbsp;
-</td><td align=center>
-<? 
->>>>>>> af2fff1... version1
 if($p_id < $reiheng) {  
 echo"<a onclick='javascript:parent.window.resizeTo($width3b,$height3b)' href=\"javascript:center_position($width3,$height3,'bildergalerie.php?g_id=$g_id&p_id=$p_id3','window')\"><img src=images/rechtsnavi.gif border=0></a>"; 
 }
 ?>
 </td><td align=right class=portrait>Zum Schliessen auf das Bild klicken!</td></tr></table>
 
-<<<<<<< HEAD
 <?php  echo"<img onclick='self.close()' src=gallery/$gallery/images/$p_id.jpg>"; ?>
-=======
-<? echo"<img onclick='self.close()' src=gallery/$gallery/images/$p_id.jpg>"; ?>
->>>>>>> af2fff1... version1
 </td></tr></table>
 </body></html>
 
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1

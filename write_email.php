@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 
@@ -99,11 +95,7 @@ return false;
 <br>
 <table width=600>
 <tr><td width=200>
-<<<<<<< HEAD
 <img src=images/arrow_r.gif> Dein Name:</td><td> <?php  echo"<font color=$color><b>$save_name</b></font>"; ?>
-=======
-<img src=images/arrow_r.gif> Dein Name:</td><td> <? echo"<font color=$color><b>$save_name</b></font>"; ?>
->>>>>>> af2fff1... version1
 
 </td></tr>
 <tr><td>
@@ -113,11 +105,7 @@ return false;
 <tr><td valign=top style=line-height:20px;>
 <img src=images/arrow_r.gif> Deine Mitteilung:
 </td><td>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 echo"<textarea cols=\"75\" rows=\"12\" name=\"e_eintrag\" class=textarea></textarea></td>";
@@ -141,9 +129,5 @@ else {
 <br><br>
 Dieser Bereich ist nur für registrierte Mitglieder sichtbar!
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 }

@@ -8,11 +8,7 @@ function center_position(w,h,url,n)
 }
 </script>
 
-<<<<<<< HEAD
 <?php   
-=======
-<?  
->>>>>>> af2fff1... version1
 
 
 if($sec=="delete")  {
@@ -46,11 +42,7 @@ if($cookie_check_abicalypse=="allowed")
 ?>
 <br><img src=images/community.jpg><br>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
  $show_user5 = mysql_query("select * from $user_tblname WHERE UserID='$user_id'");
@@ -177,16 +169,11 @@ $showg = mysql_query("select * from $user_tblname WHERE UserID='$row_gb[1]'");
 <table width=100%><tr><td>
 
 <table width=100%><tr><td>
-<<<<<<< HEAD
 <?php  echo"<img src=images/arrow_r.gif> <a href=\"javascript:center_position(400,400,'members.php?user_id=$row_gb[1]','window')\"><b>$save_nick</b></a>"; 
-=======
-<? echo"<img src=images/arrow_r.gif> <a href=\"javascript:center_position(400,400,'members.php?user_id=$row_gb[1]','window')\"><b>$save_nick</b></a>"; 
->>>>>>> af2fff1... version1
 echo"</td><td align=right class=sbdate>$row_gb[4] $row_gb[5]";?> 
 </td></tr></table><a name="g"></a>
 <table width=100%><tr><td>
 	
-<<<<<<< HEAD
 <?php  echo"<font size=1>$row_gb[2]</font>"; ?>
 </td><td align=right valign=bottom>
 
@@ -195,25 +182,11 @@ echo"</td><td align=right class=sbdate>$row_gb[4] $row_gb[5]";?>
 
 <?php  echo"<input type=hidden name=g_id value=\"$row_gb[0]\">";  ?>
 <input type=submit class=submit style=height:17px;font-size:9px; value="Eintrag löschen"> <?php  } ?>
-=======
-<? echo"<font size=1>$row_gb[2]</font>"; ?>
-</td><td align=right valign=bottom>
-
-<? if($save_id==$user_id) { ?>
-<form action=index.php?page=user_gb&user_id=<?echo"$user_id";?>&sec=delete method=post>
-
-<? echo"<input type=hidden name=g_id value=\"$row_gb[0]\">";  ?>
-<input type=submit class=submit style=height:17px;font-size:9px; value="Eintrag löschen"> <? } ?>
->>>>>>> af2fff1... version1
 
 </td></tr></table>
 </td></tr></table>
 </td></tr></table>
-<<<<<<< HEAD
 <?php   if($save_id==$user_id) { ?></form><?php  }
-=======
-<?  if($save_id==$user_id) { ?></form><? }
->>>>>>> af2fff1... version1
 
 
 }
@@ -255,21 +228,13 @@ txtarea.focus();
 <table width=600>
 
 <tr><td width=105>
-<<<<<<< HEAD
 Dein Name:</td><td> <?php  echo"<font color=$color><b>$save_name</b></font>"; ?>
-=======
-Dein Name:</td><td> <? echo"<font color=$color><b>$save_name</b></font>"; ?>
->>>>>>> af2fff1... version1
 
 </td></tr>
 <tr><td valign=top style=line-height:20px;>
 Deine Mitteilung:
 </td><td>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<form action=\"index.php?page=user_gb&user_id=$user_id&sec=eintragen\" name=\"f_gb\" method=\"post\" style=\"display:inline;\" onsubmit=\"return check_gb()\">";
 
@@ -306,11 +271,7 @@ echo"</tr></table><br>";
 </td>
 </tr></table>
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 echo"<input type=\"submit\" value=\"Eintragen\" name=\"gb_eintragen\" class=\"submit\">";
 
 echo"</form><br><br>";
@@ -330,11 +291,7 @@ else {
 <br><br>
 Dieser Bereich ist nur für registrierte Mitglieder sichtbar!
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 }
 

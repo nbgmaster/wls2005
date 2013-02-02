@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
  $show_profil = mysql_query("select * from $user_tblname WHERE UserID='$user_id'"); 

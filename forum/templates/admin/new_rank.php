@@ -3,11 +3,11 @@
 
 <form action="index.php?do=admin&sec=ranks&module=create" method="post" name="rankform" onsubmit="return checkForm(this)">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -21,11 +21,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -43,25 +43,25 @@
 
     <select name="group">
 
-<<<<<<< HEAD
+
     <?php  
-=======
+
     <? 
->>>>>>> af2fff1... version1
+
 
     $query_groups = mysql_query("SELECT * from $groups_tblname Order by id");
 
     while ($row_groups = mysql_fetch_assoc($query_groups))  {  ?>
 
-<<<<<<< HEAD
+
            <option value="<?php  echo"$row_groups[id]"; ?>"><?php  echo"$row_groups[groupname]"; ?></option>
 
     <?php  } ?>
-=======
+
            <option value="<? echo"$row_groups[id]"; ?>"><? echo"$row_groups[groupname]"; ?></option>
 
     <? } ?>
->>>>>>> af2fff1... version1
+
 
     </select>
 
@@ -83,11 +83,11 @@
 
   <tr>
 
-<<<<<<< HEAD
+
     <td class="tableb">Anzahl Sterne <img src="images/templates/<?php  echo"$template"; ?>/star.gif"></td>
-=======
+
     <td class="tableb">Anzahl Sterne <img src="images/templates/<? echo"$template"; ?>/star.gif"></td>
->>>>>>> af2fff1... version1
+
 
     <td class="tablea">
 
@@ -108,11 +108,11 @@
 </table>
 
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 

@@ -1,10 +1,6 @@
 <br>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($do=="del") {
 
@@ -91,11 +87,7 @@ $row[2] = str_replace(":angry:", "<img src=smilies/z11.gif border=0>", $row[2]);
 
 <font class=middle>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 if($save_id=="1") { 
 
@@ -119,11 +111,7 @@ echo":&nbsp;</b></font>"; ?>
 
 
 
-<<<<<<< HEAD
 <?php  echo"$row[2]";
-=======
-<? echo"$row[2]";
->>>>>>> af2fff1... version1
 
 if($row[3]!="" && $row[3]!="http://") { 
 
@@ -144,11 +132,7 @@ else {  echo" | <a href=http://$row[3] target=_blank><b>Link öffnen</b></a>";
 
 <br><hr color="#c0c0c0" size=1>
 
-<<<<<<< HEAD
  <?php 
-=======
- <?
->>>>>>> af2fff1... version1
 
         }
 

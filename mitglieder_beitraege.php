@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
  echo "<table width=680 cellspacing=0 cellpadding=5 height=22 ><tr>";

@@ -13,24 +13,14 @@ die letzten Neuigkeiten
 <table width="100%"><tr><td width="10">&nbsp;</td>
 
 <td>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 $news_show = mysql_query("select * from $news_tblname ORDER BY id DESC LIMIT 7");
 
   while($news_row = mysql_fetch_row($news_show)) {
 ?>
-<<<<<<< HEAD
 <img src="images/arrow_r.gif"> <b><?php echo"$news_row[5]";?></b>  &nbsp;<?php echo"<a href=index.php?page=news#news$news_row[0]>$news_row[2]</a>";?><br>
 
 <?php  } ?>
-=======
-<img src="images/arrow_r.gif"> <b><?echo"$news_row[5]";?></b>  &nbsp;<?echo"<a href=index.php?page=news#news$news_row[0]>$news_row[2]</a>";?><br>
-
-<? } ?>
->>>>>>> af2fff1... version1
 	
 </td></tr></table>
 	 	

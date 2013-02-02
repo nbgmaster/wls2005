@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -10,11 +10,11 @@
     <b>Nickname</b>
     </td>
 
-<<<<<<< HEAD
+
     <?php  if ($do != "admin")  { ?>
-=======
+
     <? if ($do != "admin")  { ?>
->>>>>>> af2fff1... version1
+
 
     <td class="tableb" align="center" width="100">
     <b>Email</b>
@@ -38,24 +38,24 @@
 
     <td class="tablea" align="center" width="120">
 
-<<<<<<< HEAD
+
     <?php  } else { ?>
 
     <td class="tableb" align="center" width="120">
 
     <?php  } ?>
-=======
+
     <? } else { ?>
 
     <td class="tableb" align="center" width="120">
 
     <? } ?>
->>>>>>> af2fff1... version1
+
 
     <b>Registrierung
     </td>
 
-<<<<<<< HEAD
+
     <?php  if ($do != "admin")  { ?>
 
     <td class="tableb" align="center" width="70">
@@ -65,7 +65,7 @@
     <td class="tablea" align="center" width="70">
 
     <?php  } ?>
-=======
+
     <? if ($do != "admin")  { ?>
 
     <td class="tableb" align="center" width="70">
@@ -75,7 +75,7 @@
     <td class="tablea" align="center" width="70">
 
     <? } ?>
->>>>>>> af2fff1... version1
+
     <b>Beiträge
     </td>
 

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php  ob_start(); 
-=======
-<? ob_start(); 
->>>>>>> af2fff1... version1
 
 
 

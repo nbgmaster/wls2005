@@ -11,21 +11,13 @@ alert( "Du hast keinen Text angegeben!" );
 document.form_sb.text_sb.focus();
 return false;
 }
-<<<<<<< HEAD
 <?php  if($html=="nein") { ?>
-=======
-<? if($html=="nein") { ?>
->>>>>>> af2fff1... version1
 if (document.form_sb.text_sb.value.indexOf('<',0)!=-1 || document.form_sb.text_sb.value.indexOf('>',0)!=-1) {
 alert( "Bitte kein Html benutzen!" );
 document.form_sb.text_sb.focus();
 return false;
 }
-<<<<<<< HEAD
 <?php  } ?>
-=======
-<? } ?>
->>>>>>> af2fff1... version1
 }
 function smilie(name_sb) {
 document.form_sb.text_sb.focus();

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $gb_eintrag = str_replace(":)", "<img src=smilies/z01.gif border=0>", $gb_eintrag);
 $gb_eintrag = str_replace(";)", "<img src=smilies/z02.gif border=0>", $gb_eintrag);

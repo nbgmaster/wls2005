@@ -2,11 +2,7 @@
 <img src=images/geburtstage.jpg>
 <br><br>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
@@ -63,11 +59,7 @@ else { echo""; }
 ?></td></tr></table>
 
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 else { echo"<br><br><b><font class=forum>Sorry, du bist nicht eingeloggt!</font></b><br>";
 echo"<br>Wenn du bereits registriert bist, logge dich oben mit deiner Emailadresse";

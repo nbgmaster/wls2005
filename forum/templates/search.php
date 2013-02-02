@@ -1,10 +1,10 @@
 <form action="index.php?do=search" method="post">
 
-<<<<<<< HEAD
+
 <table cellspacing="1" cellpadding="0" width="<?php  echo"$width"; ?>" class="tableinborder">
-=======
+
 <table cellspacing="1" cellpadding="0" width="<? echo"$width"; ?>" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -38,11 +38,11 @@
 
 <br>
 
-<<<<<<< HEAD
+
 <table cellspacing="0" cellpadding="0" width="<?php  echo"$width"; ?>" class="tableinborder">
-=======
+
 <table cellspacing="0" cellpadding="0" width="<? echo"$width"; ?>" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -53,11 +53,11 @@
     <option value="*" selected="selected">Suche in allen Foren</option>
     <option value="-1">--------------------</option>
 
-<<<<<<< HEAD
+
     <?php 
-=======
+
     <?
->>>>>>> af2fff1... version1
+
 
           $query_cats = mysql_query("SELECT * from $c_tblname ORDER by position");
 
@@ -170,11 +170,11 @@
 
 <br>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="6" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="6" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 

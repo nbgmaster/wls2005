@@ -1,10 +1,10 @@
 <br>
 
-<<<<<<< HEAD
+
     <table cellpadding="0" cellspacing="0" width="<?php  echo"$width"; ?>">
-=======
+
     <table cellpadding="0" cellspacing="0" width="<? echo"$width"; ?>">
->>>>>>> af2fff1... version1
+
          
      <tr>
    
@@ -29,11 +29,11 @@
 
                   <td>
 
-<<<<<<< HEAD
+
                   <font color="#<?php  echo"$cellbg_fontcolor"; ?>"><b>Statistik: 5 neuesten Mitglieder</b></font>
-=======
+
                   <font color="#<? echo"$cellbg_fontcolor"; ?>"><b>Statistik: 5 neuesten Mitglieder</b></font>
->>>>>>> af2fff1... version1
+
 
                   </td>
 
@@ -51,11 +51,11 @@
 
              <table style="width:100%;" cellpadding="1" cellspacing="0">
 
-<<<<<<< HEAD
+
              <?php   $query_newest_users = mysql_query("SELECT * from $user_tblname ORDER by UserRegdate DESC LIMIT 5");
-=======
+
              <?  $query_newest_users = mysql_query("SELECT * from $user_tblname ORDER by UserRegdate DESC LIMIT 5");
->>>>>>> af2fff1... version1
+
 
                  while ($row_newest_users = mysql_fetch_assoc($query_newest_users))  {  ?>   
 
@@ -63,29 +63,29 @@
 
               <td> 
 
-<<<<<<< HEAD
+
               <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif">
 
               <a href="index.php?do=profile&user_id=<?php  echo"$row_newest_users[UserID]"; ?>">
 
               <?php  echo"$row_newest_users[UserName]"; ?></a>
-=======
+
               <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif">
 
               <a href="index.php?do=profile&user_id=<? echo"$row_newest_users[UserID]"; ?>">
 
               <? echo"$row_newest_users[UserName]"; ?></a>
->>>>>>> af2fff1... version1
+
 
               </td>
 
             </tr> 
 
-<<<<<<< HEAD
+
             <?php  } ?>
-=======
+
             <? } ?>
->>>>>>> af2fff1... version1
+
 
           </table>
 
@@ -113,7 +113,7 @@
 
              <td>
 
-<<<<<<< HEAD
+
              <font color="#<?php  echo"$cellbg_fontcolor"; ?>"><b>Statistik: 5 neuesten Beiträge</b></font>
 
              </td>
@@ -123,7 +123,7 @@
              <td width="90" align="left"><font color="#<?php  echo"$cellbg_fontcolor"; ?>"><b>vor...</b></font></td>
 
              <td width="25" align="right"><font color="#<?php  echo"$cellbg_fontcolor"; ?>"><b>Hits</b></font></td>
-=======
+
              <font color="#<? echo"$cellbg_fontcolor"; ?>"><b>Statistik: 5 neuesten Beiträge</b></font>
 
              </td>
@@ -133,7 +133,7 @@
              <td width="90" align="left"><font color="#<? echo"$cellbg_fontcolor"; ?>"><b>vor...</b></font></td>
 
              <td width="25" align="right"><font color="#<? echo"$cellbg_fontcolor"; ?>"><b>Hits</b></font></td>
->>>>>>> af2fff1... version1
+
 
            </tr>
 
@@ -145,11 +145,11 @@
 
     </table>   
 
-<<<<<<< HEAD
+
     <table cellpadding="4" cellspacing="0" style="width:100%;border:1px solid #<?php  echo"$bordercolor"; ?>;border-top:0px solid;">
-=======
+
     <table cellpadding="4" cellspacing="0" style="width:100%;border:1px solid #<? echo"$bordercolor"; ?>;border-top:0px solid;">
->>>>>>> af2fff1... version1
+
 
       <tr>
 

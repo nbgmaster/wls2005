@@ -13,11 +13,7 @@ return false;
 }
 </script>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if(isset($wuff))  {
 
@@ -35,62 +31,38 @@ if($next=="comment_stargate") {
 
 echo"<font size=+1><br><br><br>Kommentar wurde erfolgreich eingetragen!<br><br>Sie werden weitergeleitet...</font>";
 
-<<<<<<< HEAD
 ?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=stargate"> <?php  }
-=======
-?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=stargate"> <? }
->>>>>>> af2fff1... version1
 
 
 if($next=="comment_loop") {
 
 echo"<font size=+1><br><br><br>Kommentar wurde erfolgreich eingetragen!<br><br>Sie werden weitergeleitet...</font>";
 
-<<<<<<< HEAD
 ?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=loop"> <?php  }
-=======
-?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=loop"> <? }
->>>>>>> af2fff1... version1
 
 if($next=="comment_tiefenrausch") {
 
 echo"<font size=+1><br><br><br>Kommentar wurde erfolgreich eingetragen!<br><br>Sie werden weitergeleitet...</font>";
 
-<<<<<<< HEAD
 ?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=tiefenrausch"> <?php  }
-=======
-?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=tiefenrausch"> <? }
->>>>>>> af2fff1... version1
 
 if($next=="comment_trend") {
 
 echo"<font size=+1><br><br><br>Kommentar wurde erfolgreich eingetragen!<br><br>Sie werden weitergeleitet...</font>";
 
-<<<<<<< HEAD
 ?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=trend"> <?php  }
-=======
-?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=trend"> <? }
->>>>>>> af2fff1... version1
 
 if($next=="comment_planet") {
 
 echo"<font size=+1><br><br><br>Kommentar wurde erfolgreich eingetragen!<br><br>Sie werden weitergeleitet...</font>";
 
-<<<<<<< HEAD
 ?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=planet"> <?php  }
-=======
-?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=planet"> <? }
->>>>>>> af2fff1... version1
 
 if($next=="comment_jamclub") {
 
 echo"<font size=+1><br><br><br>Kommentar wurde erfolgreich eingetragen!<br><br>Sie werden weitergeleitet...</font>";
 
-<<<<<<< HEAD
 ?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=jamclub"> <?php  }
-=======
-?> <meta http-equiv="refresh" content="3; url=index.php?site=stuff&go=discoguide&next=comment&disco=jamclub"> <? }
->>>>>>> af2fff1... version1
 
 
 
@@ -165,11 +137,7 @@ Stargate Discowelt
 <a href=index.php?site=stuff&go=discoguide&next=comment&disco=stargate><font size=2><b><font color=#ff7f00>&raquo;</font>Kommentar abgeben und Disco Bewerten</font></a>
 <br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 $nerv="stargate";
 $c_show_main = mysql_query("select * from $comment_tblname WHERE disco='$nerv' ORDER by id");
  $blubber = mysql_num_rows($c_show_main);
@@ -193,11 +161,7 @@ $note_g=$note/$blubber;
 $note_g=round($note_g,2);
 
 ?><br>
-<<<<<<< HEAD
 <center><font size=1>durschnittliche Note der User = <?php  echo"<b><font color=#ff7f00 size=3>$note_g</b>";?></font> 
-=======
-<center><font size=1>durschnittliche Note der User = <? echo"<b><font color=#ff7f00 size=3>$note_g</b>";?></font> 
->>>>>>> af2fff1... version1
 <br><br>
 <b>Eintritt:<font color=#ff7f00> 5 €</b></font>
 <br><br>
@@ -285,11 +249,7 @@ GUITARPOP - 80es
 <a href=index.php?site=stuff&go=discoguide&next=comment&disco=loop><font size=2><b><font color=#ff7f00>&raquo;</font>Kommentar abgeben und Disco Bewerten</font></a>
 <br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 $nerv="loop";
 $c_show_mainloop = mysql_query("select * from $comment_tblname WHERE disco='$nerv' ORDER by id");
  $blubberloop = mysql_num_rows($c_show_mainloop);
@@ -313,11 +273,7 @@ $note_gloop=$noteloop/$blubberloop;
 $note_gloop=round($note_gloop,2);
 
 ?><br>
-<<<<<<< HEAD
 <center><font size=1>durschnittliche Note der User = <?php  echo"<b><font color=#ff7f00 size=3>$note_gloop</b>";?></font> 
-=======
-<center><font size=1>durschnittliche Note der User = <? echo"<b><font color=#ff7f00 size=3>$note_gloop</b>";?></font> 
->>>>>>> af2fff1... version1
 <br><br>
 <b>Eintritt:<font color=#ff7f00> 6 €</b></font>
 <br><br>
@@ -410,11 +366,7 @@ Tiefenrausch
 <a href=index.php?site=stuff&go=discoguide&next=comment&disco=tiefenrausch><font size=2><b><font color=#ff7f00>&raquo;</font>Kommentar abgeben und Disco Bewerten</font></a>
 <br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 $nerv="tr";
 $c_show_maintr = mysql_query("select * from $comment_tblname WHERE disco='$nerv' ORDER by id");
  $blubbertr = mysql_num_rows($c_show_maintr);
@@ -438,11 +390,7 @@ $note_gtr=$notetr/$blubbertr;
 $note_gtr=round($note_gtr,2);
 
 ?><br>
-<<<<<<< HEAD
 <center><font size=1>durschnittliche Note der User = <?php  echo"<b><font color=#ff7f00 size=3>$note_gtr</b>";?></font> 
-=======
-<center><font size=1>durschnittliche Note der User = <? echo"<b><font color=#ff7f00 size=3>$note_gtr</b>";?></font> 
->>>>>>> af2fff1... version1
 <br><br>
 <b>Eintritt:<font color=#ff7f00> 6 €</b></font>
 <br><br>
@@ -531,11 +479,7 @@ Trend
 <a href=index.php?site=stuff&go=discoguide&next=comment&disco=trend><font size=2><b><font color=#ff7f00>&raquo;</font>Kommentar abgeben und Disco Bewerten</font></a>
 <br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 $nerv="trend";
 $c_show_maintrend = mysql_query("select * from $comment_tblname WHERE disco='$nerv' ORDER by id");
  $blubbertrend = mysql_num_rows($c_show_maintrend);
@@ -559,11 +503,7 @@ $note_gtrend=$notetrend/$blubbertrend;
 $note_gtrend=round($note_gtrend,2);
 
 ?><br>
-<<<<<<< HEAD
 <center><font size=1>durschnittliche Note der User = <?php  echo"<b><font color=#ff7f00 size=3>$note_gtrend</b>";?></font> 
-=======
-<center><font size=1>durschnittliche Note der User = <? echo"<b><font color=#ff7f00 size=3>$note_gtrend</b>";?></font> 
->>>>>>> af2fff1... version1
 <br><br>
 <b>Eintritt:<font color=#ff7f00> 4 €</b></font>
 <br><br>
@@ -636,11 +576,7 @@ Planet
 <a href=index.php?site=stuff&go=discoguide&next=comment&disco=planet><font size=2><b><font color=#ff7f00>&raquo;</font>Kommentar abgeben und Disco Bewerten</font></a>
 <br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 $nerv="planet";
 $c_show_mainplanet = mysql_query("select * from $comment_tblname WHERE disco='$nerv' ORDER by id");
@@ -671,11 +607,7 @@ $note_gplanet=round($note_gplanet,2);
 else { $note_gplanet="noch keine"; }
 
 ?><br>
-<<<<<<< HEAD
 <center><font size=1>durschnittliche Note der User = <?php  echo"<b><font color=#ff7f00 size=3>$note_gplanet</b>";?></font> 
-=======
-<center><font size=1>durschnittliche Note der User = <? echo"<b><font color=#ff7f00 size=3>$note_gplanet</b>";?></font> 
->>>>>>> af2fff1... version1
 <br><br>
 <b>Eintritt:<font color=#ff7f00> 7 €</b></font>
 <br><br>
@@ -759,11 +691,7 @@ Jam Club
 <a href=index.php?site=stuff&go=discoguide&next=comment&disco=jamclub><font size=2><b><font color=#ff7f00>&raquo;</font>Kommentar abgeben und Disco Bewerten</font></a>
 <br>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 $nerv="jamclub";
 $c_show_mainjc = mysql_query("select * from $comment_tblname WHERE disco='$nerv' ORDER by id");
  $blubberjc = mysql_num_rows($c_show_mainjc);
@@ -793,11 +721,7 @@ $note_gjc=round($note_gjc,2);
 else { $note_gjc="noch keine"; }
 
 ?><br>
-<<<<<<< HEAD
 <center><font size=1>durschnittliche Note der User = <?php  echo"<b><font color=#ff7f00 size=3>$note_gjc</b>";?></font> 
-=======
-<center><font size=1>durschnittliche Note der User = <? echo"<b><font color=#ff7f00 size=3>$note_gjc</b>";?></font> 
->>>>>>> af2fff1... version1
 <br><br>
 <b>Eintritt:<font color=#ff7f00> 6 €</b></font>
 <br><br>
@@ -825,11 +749,7 @@ else { $note_gjc="noch keine"; }
 <a href="#top"><b>&raquo;Nach oben&laquo;</b></a>
 <br>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 if($next=="comment") {
 

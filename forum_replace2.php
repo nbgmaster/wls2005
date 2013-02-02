@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 $r_posts[4] = str_replace(";)", "<img src=images/smiles/wink.gif border=0>", $r_posts[4]);
 $r_posts[4] = str_replace(";=)", "<img src=images/smiles/wink.gif border=0>", $r_posts[4]);
 $r_posts[4] = str_replace(";-)", "<img src=images/smiles/wink.gif border=0>", $r_posts[4]);

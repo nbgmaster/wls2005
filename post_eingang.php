@@ -8,11 +8,7 @@ function center_position(w,h,url,n)
 }
 </script>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 if($cookie_check_abicalypse=="allowed" && $save_id!="") 
@@ -24,11 +20,7 @@ if($cookie_check_abicalypse=="allowed" && $save_id!="")
 <br><img src=images/community.jpg><br><br>
 <table width=700><tr><td><img src=images/arrow_r.gif> 
 <a href=index.php?page=post_eingang><b>Posteingang</b></a></td></tr></table>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 if($do=="delete")  {
@@ -81,15 +73,9 @@ if($rowpm2[2]==$save_id) {
 	
         <img src="images/news_brief.gif" alt="" class="ImgMid"> 
 
-<<<<<<< HEAD
 <font size="2px" color="<?php echo"$color";?>"><b><?php  echo"$rowpm2[3]"; ?></b></font>
 
 </td><td align="right"><i> erhalten am <?php  echo"$rowpm2[5]"; ?>, <?php  echo"$rowpm2[6]"; ?> Uhr</i>
-=======
-<font size="2px" color="<?echo"$color";?>"><b><? echo"$rowpm2[3]"; ?></b></font>
-
-</td><td align="right"><i> erhalten am <? echo"$rowpm2[5]"; ?>, <? echo"$rowpm2[6]"; ?> Uhr</i>
->>>>>>> af2fff1... version1
 
 
 </td></tr></table>
@@ -98,11 +84,7 @@ if($rowpm2[2]==$save_id) {
 <table width=100% class="news"><tr><td valign="top">
 <P align=justify>
 
-<<<<<<< HEAD
 <?php  echo"$rowpm2[4]"; ?>
-=======
-<? echo"$rowpm2[4]"; ?>
->>>>>>> af2fff1... version1
 
 </P>
 </td></tr></table>
@@ -115,7 +97,6 @@ if($rowpm2[2]==$save_id) {
 <form action=index.php?page=post_eingang&do=delete method=post>
 <img src="images/news_comments.gif" alt="" class="ImgMid"> 
 
-<<<<<<< HEAD
 <?php  echo"<a href=\"index.php?page=user_pm&user_id=$rowpm2[1]\"><b>Antworten</b></a>";
 
 
@@ -124,16 +105,6 @@ if($rowpm2[2]==$save_id) {
 
 
 <?php 
-=======
-<? echo"<a href=\"index.php?page=user_pm&user_id=$rowpm2[1]\"><b>Antworten</b></a>";
-
-
-?>
-<? echo"<input type=hidden name=p_id value=\"$rowpm2[0]\">"; ?>
-
-
-<?
->>>>>>> af2fff1... version1
  $show2 = mysql_query("select * from $user_tblname WHERE UserID='$rowpm2[1]'");
   
    
@@ -145,11 +116,7 @@ if($rowpm2[2]==$save_id) {
 <td align="right">
 
 
-<<<<<<< HEAD
 <img src=images/arrow_r.gif> private Nachricht von <?php echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$rowpm2[1]','window')\"><b>$save_name</b></a>"; ?>
-=======
-<img src=images/arrow_r.gif> private Nachricht von <?echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$rowpm2[1]','window')\"><b>$save_name</b></a>"; ?>
->>>>>>> af2fff1... version1
 
 </td></tr></table>
 		
@@ -157,11 +124,7 @@ if($rowpm2[2]==$save_id) {
 		</td>
 	</tr>
 </table>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 }
 else { echo"<br><br><br><br><b>Keine Berechtigung für diese Seite!!</b>"; }
 }
@@ -249,21 +212,12 @@ echo"</tr>";
 ?>
 <tr><td class=tbl>
 <img src=images/arrow_r.gif> 
-<<<<<<< HEAD
 <a href=index.php?page=post_eingang&do=read_message&p_id=<?php echo"$rowpm[0]";?>>
 <font ><b><?php  echo"$rowpm[3]"; ?></b></font>
 </a>
 </td><td class=tbl align=center>
 
 <?php 
-=======
-<a href=index.php?page=post_eingang&do=read_message&p_id=<?echo"$rowpm[0]";?>>
-<font ><b><? echo"$rowpm[3]"; ?></b></font>
-</a>
-</td><td class=tbl align=center>
-
-<?
->>>>>>> af2fff1... version1
 
  $show = mysql_query("select * from $user_tblname WHERE UserID='$rowpm[1]'");
   
@@ -272,48 +226,28 @@ echo"</tr>";
 ?>
 
 
-<<<<<<< HEAD
 <?php echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$rowpm[1]','window')\">$save_name</a>"; ?>
-=======
-<?echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$rowpm[1]','window')\">$save_name</a>"; ?>
->>>>>>> af2fff1... version1
 
 
 </td>
 <td class=tbl align=center>
-<<<<<<< HEAD
 <?php  echo"$rowpm[5]"; ?>, <?php  echo"$rowpm[6]"; ?> Uhr
-=======
-<? echo"$rowpm[5]"; ?>, <? echo"$rowpm[6]"; ?> Uhr
->>>>>>> af2fff1... version1
 
 </td><td class=tbl align=center>
 <form action=index.php?page=post_eingang&do=delete method=post>
 
-<<<<<<< HEAD
 <?php  if($rowpm[7]=="ja") { echo"<b><font color=#ff7f00>gelesen</font></b>"; }
-=======
-<? if($rowpm[7]=="ja") { echo"<b><font color=#ff7f00>gelesen</font></b>"; }
->>>>>>> af2fff1... version1
 else { echo"<b><font color=#ff7f00>ungelesen</font></b>"; }
 ?>
 </td><td class=tbl align=center>
 
-<<<<<<< HEAD
 <input type=checkbox name=delid[] value=<?php echo"$rowpm[0]";?>>
-=======
-<input type=checkbox name=delid[] value=<?echo"$rowpm[0]";?>>
->>>>>>> af2fff1... version1
 
 </td></tr>
 	
 	
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  }
 
@@ -337,10 +271,6 @@ else {
 <br><br>
 Dieser Bereich ist nur für registrierte Mitglieder sichtbar!
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 }

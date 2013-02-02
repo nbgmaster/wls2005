@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 echo"<table width=700 cellpadding=\"4\" cellspacing=0 border=\"0\">";

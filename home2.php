@@ -1,10 +1,6 @@
 <a href="home2.php?download=123">bla</a>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 session_start();
 ob_start();

@@ -1,18 +1,15 @@
-<<<<<<< HEAD
+
 <table  cellspacing="0" cellpadding="0" width="<?php  echo"$width3"; ?>">
-=======
+
 <table  cellspacing="0" cellpadding="0" width="<? echo"$width3"; ?>">
->>>>>>> af2fff1... version1
+
 
  <tr>
 
   <td align="center">
 
-<<<<<<< HEAD
+
   <?php  
-=======
-  <? 
->>>>>>> af2fff1... version1
 
   if ($header_titles == "1")  {  ?>
 
@@ -22,21 +19,21 @@
     
       <td class="tablea" align="center">
 
-<<<<<<< HEAD
+
       <b><font class="big"><?php  echo"$board_title"; ?></font></b>
-=======
+
       <b><font class="big"><? echo"$board_title"; ?></font></b>
->>>>>>> af2fff1... version1
+
 
       </td> 
 
       <td class="tableb" align="right">
 
-<<<<<<< HEAD
+
       <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> <?php  echo"$board_description"; ?>
-=======
+
       <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> <? echo"$board_description"; ?>
->>>>>>> af2fff1... version1
+
 
       </td>
 
@@ -44,11 +41,11 @@
   
   </table>
 
-<<<<<<< HEAD
+
   <?php  } 
-=======
-  <? } 
->>>>>>> af2fff1... version1
+
+  } 
+
 
   if ($banner == "1") { ?>
 
@@ -58,11 +55,11 @@
 
           <td valign="top" align="center" class="banner">
 
-<<<<<<< HEAD
+
           <img src="images/templates/<?php  echo"$template"; ?>/banner.jpg">
-=======
+
           <img src="images/templates/<? echo"$template"; ?>/banner.jpg">
->>>>>>> af2fff1... version1
+
 
           </td>
 
@@ -117,11 +114,11 @@
 
     </td>
 
-<<<<<<< HEAD
+
     <?php  if($userdata_id == "")   { ?>
-=======
+
     <? if($userdata_id == "")   { ?>
->>>>>>> af2fff1... version1
+
 
     <td align="center" class="bgheader" width="11%">
     
@@ -129,11 +126,11 @@
 
     </td>
 
-<<<<<<< HEAD
+
     <?php  } else  {  ?>
-=======
+
     <? } else  {  ?>
->>>>>>> af2fff1... version1
+
 
     <td align="center" class="bgheader" width="11%">
     
@@ -141,29 +138,29 @@
 
     </td>
 
-<<<<<<< HEAD
+
     <?php  } ?>
-=======
+
     <? } ?>
->>>>>>> af2fff1... version1
+
            
     </tr>
 
   </table>
 
-<<<<<<< HEAD
+
   <?php   }  ?>
 
   <br>
 
   <table width="<?php  echo"$width"; ?>" cellspacing="0" cellpadding="0">
-=======
+
   <?  }  ?>
 
   <br>
 
   <table width="<? echo"$width"; ?>" cellspacing="0" cellpadding="0">
->>>>>>> af2fff1... version1
+
 
     <tr>
 

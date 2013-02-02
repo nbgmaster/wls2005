@@ -2,11 +2,11 @@
 
 <form name="admin_form" action="index.php?do=admin&sec=new_forum&module=create" method="post" onsubmit="return check_admin()">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -52,17 +52,17 @@
 
          <select name="f_cat" style="width:120px;" class="input">
 
-<<<<<<< HEAD
+
          <?php 
-=======
+
          <?
->>>>>>> af2fff1... version1
+
 
            $query_c = mysql_query("SELECT * from $c_tblname ORDER by id");
 
            while ($row_c = mysql_fetch_assoc($query_c))  { ?>
 
-<<<<<<< HEAD
+
                   <option value="<?php  echo"".$row_c[id].""; ?>">
 
                   <?php  echo"".$row_c["title"].""; ?>
@@ -70,7 +70,7 @@
                   </option>
  
            <?php  } 
-=======
+
                   <option value="<? echo"".$row_c[id].""; ?>">
 
                   <? echo"".$row_c["title"].""; ?>
@@ -78,7 +78,7 @@
                   </option>
  
            <? } 
->>>>>>> af2fff1... version1
+
 
          ?>
 
@@ -157,7 +157,7 @@
 
    </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
                
   <tr>
@@ -167,7 +167,7 @@
        <input type="hidden" value="<?php  echo"".$row_forum["cat"].""; ?>" name="actual_cat">
        <input type="hidden" value="<?php  echo"".$row_forum["position"].""; ?>" name="actual_position">
        <input type="hidden" value="<?php  echo"$f"; ?>" name="f">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
                
   <tr>
@@ -177,7 +177,7 @@
        <input type="hidden" value="<? echo"".$row_forum["cat"].""; ?>" name="actual_cat">
        <input type="hidden" value="<? echo"".$row_forum["position"].""; ?>" name="actual_position">
        <input type="hidden" value="<? echo"$f"; ?>" name="f">
->>>>>>> af2fff1... version1
+
 
        <input type="submit" class="input" name="send_admin_data" value="Forum erstellen">
 

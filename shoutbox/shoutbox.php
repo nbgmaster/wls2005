@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 include('sb_config.php');
@@ -12,30 +8,17 @@ $check_sb="true";
 ?>
 
 
-<<<<<<< HEAD
 <?php  if($dosb=="admin") { include('sb_admin.php'); }
-=======
-<? if($dosb=="admin") { include('sb_admin.php'); }
->>>>>>> af2fff1... version1
 
 if($dosb=="" or $dosb=="del") { ?>
 
 
-<<<<<<< HEAD
 <table cellspacing="0" cellpadding="2"><tr><td align="center" width="<?php echo"$width";?>">
 
 <div style="color:<?php echo"$schriftfarbe";?>;font-size:<?php echo"$schriftgroesse";?>;">
 
 
 <?php  
-=======
-<table cellspacing="0" cellpadding="2"><tr><td align="center" width="<?echo"$width";?>">
-
-<div style="color:<?echo"$schriftfarbe";?>;font-size:<?echo"$schriftgroesse";?>;">
-
-
-<? 
->>>>>>> af2fff1... version1
 
 if($check_sb=="true") { 
 
@@ -107,24 +90,14 @@ if($archiv_link=="ja" or $admin_link=="ja") {
 
 <div class="header">
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 if($archiv_link=="ja") { ?>
 
-<<<<<<< HEAD
 <a href="javascript:sb_archiv()" class="link"><b>Archiv</b></a> (<?php echo"$eintraege";?>)
 
 <?php  }
-=======
-<a href="javascript:sb_archiv()" class="link"><b>Archiv</b></a> (<?echo"$eintraege";?>)
-
-<? }
->>>>>>> af2fff1... version1
 
 if($archiv_link=="ja" && $admin_link=="ja") 
 
@@ -138,19 +111,11 @@ echo"<a href=\"$PHP_SELF?dosb=admin\" class=\"link\">Admin</a>";
 
 </div>
 
-<<<<<<< HEAD
 <?php  } ?>
 
 </div>
 
 <?php 
-=======
-<? } ?>
-
-</div>
-
-<?
->>>>>>> af2fff1... version1
 
 
 include('shoutbox/sb_functions.php');
@@ -248,10 +213,6 @@ echo"Bitte überprüfe die Angaben in der sb_config.php!"; }
 
 </table>
 
-<<<<<<< HEAD
 <?php  } ?>
-=======
-<? } ?>
->>>>>>> af2fff1... version1
 
 

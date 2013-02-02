@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php  if ($userdata_admin != "1")  { ?>
 
 <?php  } if ($c != "")  { ?>
@@ -14,7 +14,7 @@
 <form action="index.php?f=<?php  echo"$f"; ?>" method="post">
 
 <?php  } ?>
-=======
+
 <? if ($userdata_admin != "1")  { ?>
 
 <? } if ($c != "")  { ?>
@@ -30,7 +30,7 @@
 <form action="index.php?f=<? echo"$f"; ?>" method="post">
 
 <? } ?>
->>>>>>> af2fff1... version1
+
 
 <table cellpadding="0" cellspacing="1">
 
@@ -46,12 +46,10 @@
 
         <select ONCHANGE="location = this.options[this.selectedIndex].value;">
 
-<<<<<<< HEAD
+
         <?php 
-=======
-        <?
->>>>>>> af2fff1... version1
- 
+
+
           $query_cats = mysql_query("SELECT * from $c_tblname ORDER by id");
 
           while ($row_cats = mysql_fetch_assoc($query_cats))  {  
@@ -85,11 +83,11 @@
 
         <td align="center" width="40">
 
-<<<<<<< HEAD
+
         <input type="image" name="send_data" src="images/templates/<?php  echo"$template"; ?>/icon_go.gif" style="background: transparent; border: 0px solid;">
-=======
+
         <input type="image" name="send_data" src="images/templates/<? echo"$template"; ?>/icon_go.gif" style="background: transparent; border: 0px solid;">
->>>>>>> af2fff1... version1
+
     
         </td>
 

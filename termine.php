@@ -9,11 +9,7 @@ function center_position(w,h,url,n)
 }
 </script>
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
@@ -101,11 +97,7 @@ $monatka = date("m",$timestamp);
 </td><td width=100>
 
 <select name=monat>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($t_id!="") {
 
@@ -176,11 +168,7 @@ if($monatka=="12") { echo"<option value=12 selected>Dezember</option>"; } else  
 
 <select name=jahr>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $year0="2005";
 $yearka = date("Y",$timestamp);
@@ -240,11 +228,7 @@ $year0=$year0+1;
 <input type=submit value="Anzeigen" style="width:80px;">
 </td><td align=right width=250><img src=images/arrow_r.gif>
 
-<<<<<<< HEAD
 <?php  if($termine_side_forward!="") {
-=======
-<? if($termine_side_forward!="") {
->>>>>>> af2fff1... version1
 
 
 echo"<a href=index.php?page=termine&monat=$monat&jahr=$jahr&termine_side_forward=$termine_side_forward#neuer_termin><b>Neuen Termin eintragen</b></a>";
@@ -255,11 +239,7 @@ else { ?>
  
 <a href=index.php?page=termine#neuer_termin><b>Neuen Termin eintragen</b></a>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 ?>
 
@@ -271,11 +251,7 @@ else { ?>
 
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 if($t_id=="") {
@@ -454,11 +430,7 @@ return false;
 <select name=tag>
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 
@@ -517,11 +489,7 @@ echo"<option>0$bb</option>";
 </td><td>
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 $monat2 = date("m",$timestamp2);
@@ -531,11 +499,7 @@ $monat2 = date("m",$timestamp2);
 <select name=monat>
 
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 
@@ -594,11 +558,7 @@ echo"<option>0$ii</option>";
 </td><td>
 
 <select name=jahr>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $oi=$t_year;
 
@@ -675,11 +635,7 @@ Hier kannst du z.B. einen Flyer oder eine Wegbeschreibung zu<br> einem Event anf
 </form>
 <br><br>
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 
 else {
@@ -762,15 +718,9 @@ echo"</td></tr></table></td></tr></table><br>";
 ?>
 <b style=line-height:8px;>Kommentare</b>
 <br>
-<<<<<<< HEAD
 <?php  echo"<a href=index.php?page=termine&t_id=$t_id#p><i style=line-height:18px; class=middle><u>Kommentar schreiben</u></i></a>";?>
 <br>
 <?php 
-=======
-<? echo"<a href=index.php?page=termine&t_id=$t_id#p><i style=line-height:18px; class=middle><u>Kommentar schreiben</u></i></a>";?>
-<br>
-<?
->>>>>>> af2fff1... version1
 
 $n_data = mysql_query("select * from $termine_comments_tblname WHERE termin_id='$t_id'");
 $n_reihen = mysql_num_rows($n_data);
@@ -849,11 +799,7 @@ $datum_t = date("d.m.Y",$r_comment[4]);
 </td><td>
 
 <table width=100%><tr><td>
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 echo"<a href=\"javascript:center_position(400,400,'members.php?user_id=$save_o','window')\">";
 
 echo"<font class=members><b>$save_nick</a></b></font>"; 
@@ -861,21 +807,13 @@ echo"</td><td align=right class=middle>$datum_t, $uhrzeit_t Uhr";?>
 </td></tr></table><a name="p"></a>
 <table width=100%><tr><td>
 	
-<<<<<<< HEAD
 <?php  echo"$r_comment[2]"; ?>
-=======
-<? echo"$r_comment[2]"; ?>
->>>>>>> af2fff1... version1
 </td></tr></table>
 </td></tr></table>
 </td></tr></table>
 
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 }}
 
@@ -907,11 +845,7 @@ return false;
 <table width=500><tr><td>
 </td></tr>
 <tr><td width=90>
-<<<<<<< HEAD
 Dein Name:</td><td> <?php  echo"<font color=$color><b>$save_name</b></font>"; ?>
-=======
-Dein Name:</td><td> <? echo"<font color=$color><b>$save_name</b></font>"; ?>
->>>>>>> af2fff1... version1
 
 </td></tr>
 <tr><td valign=top style=line-height:20px;>
@@ -920,19 +854,11 @@ Dein Kommentar:
 <textarea cols=55 rows=6 name=m_comment class=textarea></textarea>
 </td></tr></table>
 <br>
-<<<<<<< HEAD
 <?php  echo"<input type=hidden value=$t_id name=termin_id>"; ?>
 
 <input name="s_comment" type=submit class=submit value="Kommentar abschicken">
 </form>
 <?php 
-=======
-<? echo"<input type=hidden value=$t_id name=termin_id>"; ?>
-
-<input name="s_comment" type=submit class=submit value="Kommentar abschicken">
-</form>
-<?
->>>>>>> af2fff1... version1
 
 }
 

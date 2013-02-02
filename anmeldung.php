@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($cookie_check_abicalypse=="" or $save_id=="") 
 
@@ -212,11 +208,7 @@ return false; }
 
 </script>
  
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  echo"<form name=\"f_reg\" action=\"index.php?page=register&step=finish\" method=\"post\" onsubmit=\"return check_user()\">"; ?>
                                                                   
@@ -236,11 +228,7 @@ return false; }
 <table width=700 cellspacing=10 cellpadding=3><tr><td class="top">
  
 
-<<<<<<< HEAD
 <?php  echo"<input type=hidden value=$timestamp name=date>"; ?>
-=======
-<? echo"<input type=hidden value=$timestamp name=date>"; ?>
->>>>>>> af2fff1... version1
 <b>Nickname</td><td class=top><input type="text" name="nickname" class=edit_p maxlength=20></td></tr>
 <tr><td class=top><b>Vorname</td><td class=top><input type="text" name="vorname" class=edit_p maxlength=20></td></tr>
 <tr><td class=top><b>Nachname</td><td class=top><input type="text" name="nachname" class=edit_p maxlength=20></td></tr>
@@ -280,11 +268,7 @@ return false; }
 <input type="submit" name="send_user" value="Registrierung abschließen" class="submit">
 </form>
 </center>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"</td></tr></table>";
 

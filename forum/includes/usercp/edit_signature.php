@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   if ($module == "")  { 
 
@@ -23,11 +19,7 @@
 
   if ($module == "change")  { 
 
-<<<<<<< HEAD
       $message = str_replace("[PHP]", "[PHP]<?php ", $message);
-=======
-      $message = str_replace("[PHP]", "[PHP]<?", $message);
->>>>>>> af2fff1... version1
       $message = str_replace("[/PHP]", "?>[/PHP]", $message);
 
       $update_signature = "UPDATE $user_tblname SET signature = '$message' WHERE UserID = '$userdata_id'";     

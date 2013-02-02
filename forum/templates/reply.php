@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <?php  
-=======
+
 <? 
->>>>>>> af2fff1... version1
+
 
   if (isset($preview))  {
 
@@ -14,44 +14,44 @@
 
       <script language="JavaScript" type="text/javascript" src="./javascript/form_title2.js"></script>
 
-<<<<<<< HEAD
+
   <?php  } else {
-=======
+
   <? } else {
->>>>>>> af2fff1... version1
+
 
       if ($do == "newpm" or $do == "newtopic")  { ?>
 
           <script language="JavaScript" type="text/javascript" src="./javascript/form_title.js"></script>
  
-<<<<<<< HEAD
+
           <?php   }  else {  ?>
 
           <script language="JavaScript" type="text/javascript" src="./javascript/form_reply.js"></script>
 
        <?php   }
-=======
+
           <?  }  else {  ?>
 
           <script language="JavaScript" type="text/javascript" src="./javascript/form_reply.js"></script>
 
        <?  }
->>>>>>> af2fff1... version1
+
 
   }
      
 ?>
-<<<<<<< HEAD
+
 <form action="<?php  echo"$form_link"; ?>" method="post" name="bbform" onsubmit="return checkForm(this)" style="display:inline;" enctype="multipart/form-data">
 
       
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <form action="<? echo"$form_link"; ?>" method="post" name="bbform" onsubmit="return checkForm(this)" style="display:inline;" enctype="multipart/form-data">
 
       
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -59,11 +59,11 @@
 
     <br><br>
 
-<<<<<<< HEAD
+
     <b><?php  echo"$smilies_showstart"; ?> von <?php  echo"$smilienumbers"; ?> Smilies:</b>
-=======
+
     <b><? echo"$smilies_showstart"; ?> von <? echo"$smilienumbers"; ?> Smilies:</b>
->>>>>>> af2fff1... version1
+
 
     <br><br>
 
@@ -71,11 +71,11 @@
 
       <tr>
 
-<<<<<<< HEAD
+
       <?php  include("./includes/smilies.php"); ?>
-=======
+
       <? include("./includes/smilies.php"); ?>
->>>>>>> af2fff1... version1
+
 
       </tr>
 
@@ -85,15 +85,15 @@
 
         <script language="JavaScript" type="text/javascript" src="./javascript/window_position.js"></script>
 
-<<<<<<< HEAD
+
         <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> 
 
         <a href="javascript:window_position(<?php  echo"$width_smilies_window,$height_smilies_window"; ?>,'includes/allsmilies.php','Smilies')">Weitere Smilies ansehen</a>
-=======
+
         <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> 
 
         <a href="javascript:window_position(<? echo"$width_smilies_window,$height_smilies_window"; ?>,'includes/allsmilies.php','Smilies')">Weitere Smilies ansehen</a>
->>>>>>> af2fff1... version1
+
 
     <br><br><br>
 
@@ -105,11 +105,11 @@
 
         <td>
 
-<<<<<<< HEAD
+
         <img src=images/templates/<?php  echo"$template"; ?>/arrow_r.gif> HTML ist     <b><?php  echo"$html_mode"; ?></b>
-=======
+
         <img src=images/templates/<? echo"$template"; ?>/arrow_r.gif> HTML ist     <b><? echo"$html_mode"; ?></b>
->>>>>>> af2fff1... version1
+
 
       </tr>
 
@@ -117,11 +117,11 @@
 
         <td>
 
-<<<<<<< HEAD
+
         <img src=images/templates/<?php  echo"$template"; ?>/arrow_r.gif> BBCode ist   <b><?php  echo"$bbcode_mode"; ?></b>
-=======
+
         <img src=images/templates/<? echo"$template"; ?>/arrow_r.gif> BBCode ist   <b><? echo"$bbcode_mode"; ?></b>
->>>>>>> af2fff1... version1
+
 
       </tr>
 
@@ -129,11 +129,11 @@
 
         <td>
 
-<<<<<<< HEAD
+
         <img src=images/templates/<?php  echo"$template"; ?>/arrow_r.gif> Smilies sind <b><?php  echo"$smilies_mode"; ?></b>
-=======
+
         <img src=images/templates/<? echo"$template"; ?>/arrow_r.gif> Smilies sind <b><? echo"$smilies_mode"; ?></b>
->>>>>>> af2fff1... version1
+
 
         </td>
 
@@ -143,17 +143,17 @@
 
     </td>
       
-<<<<<<< HEAD
+
     <td class="main" bgcolor="<?php  echo"#$cell_bg01"; ?>" align="center">
-=======
+
     <td class="main" bgcolor="<? echo"#$cell_bg01"; ?>" align="center">
->>>>>>> af2fff1... version1
+
 
     <br>
 
     <b>Titel:</b>
 
-<<<<<<< HEAD
+
     <?php  if ($do == "newtopic" or $do == "newpm")  { ?>
 
     <input class="input" type="text" maxlength="30" value="<?php  echo"$title"; ?>" name="title" style="width:420px;">
@@ -163,7 +163,7 @@
     <input class="input" type="text" maxlength="30" value="<?php  echo"$newtitle"; ?>" name="newtitle" style="width:420px;">
 
     <?php  } ?>
-=======
+
     <? if ($do == "newtopic" or $do == "newpm")  { ?>
 
     <input class="input" type="text" maxlength="30" value="<? echo"$title"; ?>" name="title" style="width:420px;">
@@ -173,7 +173,7 @@
     <input class="input" type="text" maxlength="30" value="<? echo"$newtitle"; ?>" name="newtitle" style="width:420px;">
 
     <? } ?>
->>>>>>> af2fff1... version1
+
 
     <br><br>
               
@@ -256,7 +256,7 @@
             <td>
      
             &nbsp;
-<<<<<<< HEAD
+
             <img src="images/templates/<?php  echo"$template";?>/bbcode_bold.gif" title="fettgedruckter Text" border="0" onclick="bbcode(document.bbform,'B','')" class="clsCursor">
             &nbsp;
             <img src="images/templates/<?php  echo"$template";?>/bbcode_italic.gif" title="kursiver Text" border="0" onclick="bbcode(document.bbform,'I','')" class="clsCursor">
@@ -274,7 +274,7 @@
              <img src="images/templates/<?php  echo"$template";?>/bbcode_code.gif" title="Code" border="0" onclick="bbcode(document.bbform,'PHP','')" class="clsCursor">
             &nbsp;
              <img src="images/templates/<?php  echo"$template";?>/bbcode_php.gif" title="PHP Code" border="0" onclick="bbcode(document.bbform,'PHP','')" class="clsCursor">
-=======
+
             <img src="images/templates/<? echo"$template";?>/bbcode_bold.gif" title="fettgedruckter Text" border="0" onclick="bbcode(document.bbform,'B','')" class="clsCursor">
             &nbsp;
             <img src="images/templates/<? echo"$template";?>/bbcode_italic.gif" title="kursiver Text" border="0" onclick="bbcode(document.bbform,'I','')" class="clsCursor">
@@ -292,7 +292,7 @@
              <img src="images/templates/<? echo"$template";?>/bbcode_code.gif" title="Code" border="0" onclick="bbcode(document.bbform,'PHP','')" class="clsCursor">
             &nbsp;
              <img src="images/templates/<? echo"$template";?>/bbcode_php.gif" title="PHP Code" border="0" onclick="bbcode(document.bbform,'PHP','')" class="clsCursor">
->>>>>>> af2fff1... version1
+
             &nbsp;
             </td>
 
@@ -334,11 +334,11 @@
            
        <td align="center">
 
-<<<<<<< HEAD
+
        <textarea nowrap name="message" rows="<?php  echo"$rows_textarea"; ?>" style="width:95%;height:240px;"><?php  if (isset($preview)) {  
-=======
+
        <textarea nowrap name="message" rows="<? echo"$rows_textarea"; ?>" style="width:95%;height:240px;"><? if (isset($preview)) {  
->>>>>>> af2fff1... version1
+
 $_POST["message"] = trim($_POST["message"]);
 $preview_message = stripslashes($_POST["message"]);
 
@@ -348,11 +348,11 @@ else  {
 
            if ($q_id != "")     { 
 
-<<<<<<< HEAD
+
                $quote_msg = str_replace("[PHP]<?php ", "[PHP]", $quote_msg);
-=======
+
                $quote_msg = str_replace("[PHP]<?", "[PHP]", $quote_msg);
->>>>>>> af2fff1... version1
+
                $quote_msg = str_replace("?>[/PHP]", "[/PHP]", $quote_msg);
 
                echo"$quote1$quote_msg$quote2";
@@ -361,11 +361,11 @@ else  {
     
            if ($do == "edit")   {
 
-<<<<<<< HEAD
+
                $edit_message = str_replace("[PHP]<?php ", "[PHP]", $edit_message);
-=======
+
                $edit_message = str_replace("[PHP]<?", "[PHP]", $edit_message);
->>>>>>> af2fff1... version1
+
                $edit_message = str_replace("?>[/PHP]", "[/PHP]", $edit_message);
 
                echo"$edit_message"; 
@@ -374,11 +374,11 @@ else  {
 
            if ($do == "usercp") { 
 
-<<<<<<< HEAD
+
                $userdata_signature = str_replace("[PHP]<?php ", "[PHP]", $userdata_signature);
-=======
+
                $userdata_signature = str_replace("[PHP]<?", "[PHP]", $userdata_signature);
->>>>>>> af2fff1... version1
+
                $userdata_signature = str_replace("?>[/PHP]", "[/PHP]", $userdata_signature);
 
                echo"$userdata_signature"; 
@@ -399,11 +399,11 @@ else  {
 
      </tr>
 
-<<<<<<< HEAD
+
      <?php  if ($do == "newtopic" or $do == "reply" or $do == "post")  { ?>
-=======
+
      <? if ($do == "newtopic" or $do == "reply" or $do == "post")  { ?>
->>>>>>> af2fff1... version1
+
 
      <tr>
 
@@ -415,15 +415,15 @@ else  {
 
       </tr>
 
-<<<<<<< HEAD
+
       <?php   } ?>
 
      <?php  if ($do == "newtopic")  { ?>
-=======
+
       <?  } ?>
 
      <? if ($do == "newtopic")  { ?>
->>>>>>> af2fff1... version1
+
 
      <tr>
 
@@ -435,11 +435,11 @@ else  {
 
       </tr>
 
-<<<<<<< HEAD
+
       <?php   } ?>
-=======
+
       <?  } ?>
->>>>>>> af2fff1... version1
+
 
    </table> 
 
@@ -447,7 +447,7 @@ else  {
 
    <center>
 
-<<<<<<< HEAD
+
    <?php  if ($do == "post")  { ?>
 
    <input class="input" type="hidden" value="<?php  echo"$_POST[forum_id]"; ?>" name="forum_id">
@@ -480,7 +480,7 @@ else  {
    <input class="input" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Nachricht abschicken">
    
    <?php  }  if ($do == "edit")  { ?>
-=======
+
    <? if ($do == "post")  { ?>
 
    <input class="input" type="hidden" value="<? echo"$_POST[forum_id]"; ?>" name="forum_id">
@@ -513,35 +513,35 @@ else  {
    <input class="input" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Nachricht abschicken">
    
    <? }  if ($do == "edit")  { ?>
->>>>>>> af2fff1... version1
+
 
    <input class="input" type="submit" name="preview" accesskey="S" onclick="closeall(this.form)" value="Vorschau">
    
    <input class="input" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Beitrag ändern">
    
-<<<<<<< HEAD
+
    <?php  }  if ($do == "usercp")  { ?>
 
    <input class="input" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Signatur ändern">
    
    <?php  }  if ($do != "usercp" && $do != "edit" && $do != "newpm")  { ?>
-=======
+
    <? }  if ($do == "usercp")  { ?>
 
    <input class="input" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Signatur ändern">
    
    <? }  if ($do != "usercp" && $do != "edit" && $do != "newpm")  { ?>
->>>>>>> af2fff1... version1
+
 
    <input class="input" type="submit" name="preview" accesskey="S" onclick="closeall(this.form)" value="Vorschau">
 
    <input class="input" type="submit" name="send_postdata" accesskey="S" onclick="closeall(this.form)" value="Beitrag absenden">
    
-<<<<<<< HEAD
+
    <?php  } ?>
-=======
+
    <? } ?>
->>>>>>> af2fff1... version1
+
 
    </center>
 

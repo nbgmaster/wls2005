@@ -1,10 +1,10 @@
 <form action="index.php?do=movetopic" method="post">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -18,11 +18,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -40,11 +40,11 @@
 
         <select name="move_to">
 
-<<<<<<< HEAD
+
         <?php 
-=======
+
         <?
->>>>>>> af2fff1... version1
+
  
           $query_cats = mysql_query("SELECT * from $c_tblname ORDER by id");
 
@@ -79,11 +79,11 @@
     
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -91,11 +91,11 @@
 
        <input type="hidden" name="adminoptions" value="movetopic">
 
-<<<<<<< HEAD
+
        <input type="hidden" name="t" value="<?php  echo"$t"; ?>">
-=======
+
        <input type="hidden" name="t" value="<? echo"$t"; ?>">
->>>>>>> af2fff1... version1
+
 
        <input type="submit" class="input" name="send_moveto_data" value="Thema verschieben">
 

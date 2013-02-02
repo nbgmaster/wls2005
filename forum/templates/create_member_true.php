@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
+
 
   $query_admin_config = mysql_query("SELECT * from $admin_config_tblname");    
 

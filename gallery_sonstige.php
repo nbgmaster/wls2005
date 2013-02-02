@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <a name="s"></a>  <?php 
-=======
-<a name="s"></a>  <?
->>>>>>> af2fff1... version1
 
 
 
@@ -210,11 +206,7 @@ $g_seiten = floor($g_seiten);
 
 <td align=left height=47><img src=images/partypics.jpg></td><td valign=top align=right class=middle>
 <font class=mini><br></font>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 echo"<img src=images/arrow_r.gif> <b>Album:</b> Sonstige Bilder";
 
 

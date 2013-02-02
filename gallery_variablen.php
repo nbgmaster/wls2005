@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 if($roy<40*$g_anzeigen_main) { $roy3=39*$g_anzeigen_main; }
 if($roy<39*$g_anzeigen_main) { $roy2=38*$g_anzeigen_main; }
 if($roy<38*$g_anzeigen_main) { $roy2=37*$g_anzeigen_main; }

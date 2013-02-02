@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 

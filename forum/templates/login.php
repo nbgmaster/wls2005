@@ -18,11 +18,11 @@
       
         <td>
 
-<<<<<<< HEAD
+
         <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> <b>Nickname:</b>&nbsp;
-=======
+
         <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> <b>Nickname:</b>&nbsp;
->>>>>>> af2fff1... version1
+
 
         <input type="text" name="login_username" class="input">
 
@@ -30,11 +30,11 @@
 
         <td>
  
-<<<<<<< HEAD
+
         <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> <b>Passwort:</b>&nbsp;
-=======
+
         <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> <b>Passwort:</b>&nbsp;
->>>>>>> af2fff1... version1
+
 
         <input type="password" name="login_userpw" class="input">
 
@@ -42,11 +42,11 @@
 
         <td width="185">
 
-<<<<<<< HEAD
+
         <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> <b>Automatisches Einloggen:</b> 
-=======
+
         <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> <b>Automatisches Einloggen:</b> 
->>>>>>> af2fff1... version1
+
 
         </td>
 

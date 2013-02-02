@@ -39,11 +39,7 @@ txtarea.focus();
 
 </script>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 $sql3 = mysql_query("select * from wls_forum_posts WHERE id='$q_id' order by id");
 
 while ($r_posts = mysql_fetch_row($sql3)) {
@@ -207,11 +203,7 @@ Optionen:<br><br>
 </table>
 
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 
 $quote1="[QUOTE=$usern]"; $quote2="[/QUOTE]"; 
@@ -219,7 +211,6 @@ $quote1="[QUOTE=$usern]"; $quote2="[/QUOTE]";
 ?></td>
           </tr>
           <tr>
-<<<<<<< HEAD
            <td><textarea nowrap name="message" rows=15 cols=74 style="display:inline;"><?php  if($q_id!="") { echo"$quote1$zitat$quote2"; } ?></textarea></td>
           </tr>
          </table> 
@@ -228,16 +219,6 @@ $quote1="[QUOTE=$usern]"; $quote2="[/QUOTE]";
 <input type=hidden value=<?php echo"$thread_id";?> name=thread_id>
 <input type=hidden value=<?php echo"$save_id";?> name=user_id>
 <input type=hidden value=<?php echo"$timestamp";?> name=post_time>
-=======
-           <td><textarea nowrap name="message" rows=15 cols=74 style="display:inline;"><? if($q_id!="") { echo"$quote1$zitat$quote2"; } ?></textarea></td>
-          </tr>
-         </table> 
-
-<input type=hidden value=<?echo"$cat_id";?> name=cat_id>
-<input type=hidden value=<?echo"$thread_id";?> name=thread_id>
-<input type=hidden value=<?echo"$save_id";?> name=user_id>
-<input type=hidden value=<?echo"$timestamp";?> name=post_time>
->>>>>>> af2fff1... version1
 <br>
 <center>
 
@@ -261,11 +242,7 @@ function center_position(w,h,url,n)
 
 <br><img src=images/arrow_r.gif> <b>die letzten 5 Beiträge:</b>
 <br><br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 $posts = mysql_query("select * from $posts_tblname WHERE cat_id='$cat_id' && thread_id='$thread_id' ORDER by id DESC LIMIT 5");

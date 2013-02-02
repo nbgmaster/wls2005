@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   // Start Session
 
@@ -21,11 +17,7 @@
 
        <title>nbg-master.de FORUM Script v1.0</title>
 
-<<<<<<< HEAD
        <?php  
-=======
-       <? 
->>>>>>> af2fff1... version1
 
          // Load:: Style Data
 
@@ -46,11 +38,7 @@
 
   <a name="top"></a>
 
-<<<<<<< HEAD
   <?php 
-=======
-  <?
->>>>>>> af2fff1... version1
 
     // Load:: Stats
 

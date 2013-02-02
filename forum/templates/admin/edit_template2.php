@@ -1,10 +1,10 @@
 <form method="post">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -12,11 +12,11 @@
 
     <select class="input" name="template_name">
   
-<<<<<<< HEAD
+
     <?php  
-=======
+
     <? 
->>>>>>> af2fff1... version1
+
 
       while ($row_template = mysql_fetch_assoc($query_template))  {  
 

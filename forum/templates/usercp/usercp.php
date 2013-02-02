@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -14,11 +14,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_nickname"><img src="images/templates/<?php  echo"$template"; ?>/usercp_profile_edit.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_nickname"><img src="images/templates/<? echo"$template"; ?>/usercp_profile_edit.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -47,11 +47,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_pw"><img src="images/templates/<?php  echo"$template"; ?>/usercp_password_change.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_pw"><img src="images/templates/<? echo"$template"; ?>/usercp_password_change.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -83,11 +83,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_email"><img src="images/templates/<?php  echo"$template"; ?>/usercp_profile_edit.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_email"><img src="images/templates/<? echo"$template"; ?>/usercp_profile_edit.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -116,11 +116,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_profile"><img src="images/templates/<?php  echo"$template"; ?>/usercp_profile_edit.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_profile"><img src="images/templates/<? echo"$template"; ?>/usercp_profile_edit.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -152,11 +152,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_settings"><img src="images/templates/<?php  echo"$template"; ?>/usercp_options_change.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_settings"><img src="images/templates/<? echo"$template"; ?>/usercp_options_change.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -185,11 +185,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=inbox"><img src="images/templates/<?php  echo"$template"; ?>/usercp_pm.gif" border="0"></a>
-=======
+
            <a href="index.php?do=inbox"><img src="images/templates/<? echo"$template"; ?>/usercp_pm.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -221,11 +221,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_signature"><img src="images/templates/<?php  echo"$template"; ?>/usercp_signature_edit.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_signature"><img src="images/templates/<? echo"$template"; ?>/usercp_signature_edit.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -254,11 +254,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=edit_avatar"><img src="images/templates/<?php  echo"$template"; ?>/usercp_avatars.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=edit_avatar"><img src="images/templates/<? echo"$template"; ?>/usercp_avatars.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -290,11 +290,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=friendlist"><img src="images/templates/<?php  echo"$template"; ?>/usercp_buddy_list.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=friendlist"><img src="images/templates/<? echo"$template"; ?>/usercp_buddy_list.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 
@@ -323,11 +323,11 @@
 
            <td width="50" align="center">
 
-<<<<<<< HEAD
+
            <a href="index.php?do=usercp&sec=ignorelist"><img src="images/templates/<?php  echo"$template"; ?>/usercp_ignore_list.gif" border="0"></a>
-=======
+
            <a href="index.php?do=usercp&sec=ignorelist"><img src="images/templates/<? echo"$template"; ?>/usercp_ignore_list.gif" border="0"></a>
->>>>>>> af2fff1... version1
+
 
            </td>
 

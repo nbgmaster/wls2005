@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $query_votes  = "INSERT into $votes_tblname (user_id, poll_id, answer_number) ";
  

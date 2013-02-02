@@ -6,11 +6,11 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <img src="images/templates/<?php  echo"$template"; ?>/folder.gif">
-=======
+
          <img src="images/templates/<? echo"$template"; ?>/folder.gif">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -28,11 +28,11 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <img src="images/templates/<?php  echo"$template"; ?>/hotfolder.gif">
-=======
+
          <img src="images/templates/<? echo"$template"; ?>/hotfolder.gif">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -48,11 +48,11 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <img src="images/templates/<?php  echo"$template"; ?>/newfolder.gif">
-=======
+
          <img src="images/templates/<? echo"$template"; ?>/newfolder.gif">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -70,11 +70,11 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <img src="images/templates/<?php  echo"$template"; ?>/newhotfolder.gif">
-=======
+
          <img src="images/templates/<? echo"$template"; ?>/newhotfolder.gif">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -90,11 +90,11 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <img src="images/templates/<?php  echo"$template"; ?>/closed.gif">
-=======
+
          <img src="images/templates/<? echo"$template"; ?>/closed.gif">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -112,11 +112,11 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <img src="images/templates/<?php  echo"$template"; ?>/hotlockfolder.gif">
-=======
+
          <img src="images/templates/<? echo"$template"; ?>/hotlockfolder.gif">
->>>>>>> af2fff1... version1
+
 
          </td>
 

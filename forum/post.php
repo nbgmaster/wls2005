@@ -1,17 +1,9 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $message = stripslashes($message);
   $message = str_replace("'", "\'", $message);
 
-<<<<<<< HEAD
   $message = str_replace("[PHP]", "[PHP]<?php ", $message);
-=======
-  $message = str_replace("[PHP]", "[PHP]<?", $message);
->>>>>>> af2fff1... version1
   $message = str_replace("[/PHP]", "?>[/PHP]", $message);
 
   // Post PM

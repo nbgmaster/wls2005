@@ -1,10 +1,10 @@
 <form action="index.php?do=admin&sec=massemail&module=send" method="post">
 
-<<<<<<< HEAD
+
 <table cellpadding="4" cellspacing="1" class="tableinborder" width="<?php  echo"$width"; ?>">
-=======
+
 <table cellpadding="4" cellspacing="1" class="tableinborder" width="<? echo"$width"; ?>">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -58,11 +58,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table cellpadding="4" cellspacing="1" class="tableinborder" width="<?php  echo"$width"; ?>">
-=======
+
 <table cellpadding="4" cellspacing="1" class="tableinborder" width="<? echo"$width"; ?>">
->>>>>>> af2fff1... version1
+
 
   <tr>
 

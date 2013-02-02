@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $show_m = mysql_query("select * from $user_tblname ORDER By UserName");
 

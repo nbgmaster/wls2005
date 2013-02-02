@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <?php  
-=======
+
 <? 
->>>>>>> af2fff1... version1
+
 
   $member_check = "1";
 

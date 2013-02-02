@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
   include("./templates/admin/smilies_top.php"); 
 

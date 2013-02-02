@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 
 { 
@@ -10,11 +6,7 @@
 <font class=small><br></font>
 <table width=680><tr><td>
 <img src=images/neuigkeiten.jpg></td><td align=right>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 $n_data_main = mysql_query("select * from $news_tblname");
@@ -72,11 +64,7 @@ echo"<a name=news$news_row[0]></a>";
 
 <td align=center valign=top>
 <br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 echo"<img src=\"images/news.image.gif\"></a>";
 

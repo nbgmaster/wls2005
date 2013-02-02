@@ -120,15 +120,15 @@ UpgradeLog*.XML
 ## Windows
 ############
 
-<<<<<<< HEAD
+
 gallery
 kurs_fotos_ges
 kurs_fotos_k12
 kurs_fotos_k13
 downloads
 
-=======
->>>>>>> af2fff1... version1
+
+
 # Windows image file caches
 Thumbs.db
 

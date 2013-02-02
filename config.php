@@ -1,11 +1,8 @@
-<<<<<<< HEAD
+
 <?php
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
-=======
-<?
 
->>>>>>> af2fff1... version1
 
   if (!empty($_GET))     extract($_GET);
   if (!empty($_POST))    extract($_POST);
@@ -49,11 +46,11 @@ $kurs_tblname = "wls_kurs0304";
 $kurs_anzeigen = "30";
 
 $user_tblname="wls_login";
-<<<<<<< HEAD
+
 $user_gb_anzeigen="20";    // Gï¿½stebucheintrï¿½ge pro Seite
-=======
+
 $user_gb_anzeigen="20";    // Gästebucheinträge pro Seite
->>>>>>> af2fff1... version1
+
 
 
 $termine_tblname="wls_termine";

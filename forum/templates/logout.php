@@ -1,11 +1,11 @@
 <form action="index.php?action=logout" method="post">
 
 
-<<<<<<< HEAD
+
 <table cellpadding="0" cellspacing="1" border="0" width="<?php  echo"$width"; ?>" class="tableinborder">
-=======
+
 <table cellpadding="0" cellspacing="1" border="0" width="<? echo"$width"; ?>" class="tableinborder">
->>>>>>> af2fff1... version1
+
    
   <tr>
     
@@ -17,7 +17,7 @@
 
         <td class="cellbg">
 
-<<<<<<< HEAD
+
         <b>Hallo <?php  echo"$userdata_name"; ?></b>
 
         <?php  if ($userdata_admin == "1") { ?>
@@ -29,7 +29,7 @@
         (User)
  
         <?php  } ?>
-=======
+
         <b>Hallo <? echo"$userdata_name"; ?></b>
 
         <? if ($userdata_admin == "1") { ?>
@@ -41,7 +41,7 @@
         (User)
  
         <? } ?>
->>>>>>> af2fff1... version1
+
 
          | Neue Private Nachrichten: 0
 
@@ -49,11 +49,11 @@
 
         <td align="right" class="cellbg">
 
-<<<<<<< HEAD
+
         aktuelles Datum: <?php  echo"$c_date, $c_time Uhr"; ?>
-=======
+
         aktuelles Datum: <? echo"$c_date, $c_time Uhr"; ?>
->>>>>>> af2fff1... version1
+
 
         </td>
 
@@ -75,7 +75,7 @@
 
          <td>
 
-<<<<<<< HEAD
+
          <?php  if ($userdata_admin == "1") { ?>
 
          <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif">
@@ -89,7 +89,7 @@
         <a href="index.php?do=markread">Alle ungelesenen Beiträge als gelesen markieren</a>&nbsp;&nbsp;
 
         <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif">
-=======
+
          <? if ($userdata_admin == "1") { ?>
 
          <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif">
@@ -103,7 +103,7 @@
         <a href="index.php?do=markread">Alle ungelesenen Beiträge als gelesen markieren</a>&nbsp;&nbsp;
 
         <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif">
->>>>>>> af2fff1... version1
+
                   
         <a href="index.php?do=markread">Neue Beiträge seit letztem Besuch anzeigen</a>
 
@@ -113,11 +113,11 @@
 
         <input type="submit" class="input" value="Abmelden" name="submit_login_data" style="width:80px;">
 
-<<<<<<< HEAD
+
         <?php  echo"$table_end"; ?> 
-=======
+
         <? echo"$table_end"; ?> 
->>>>>>> af2fff1... version1
+
 
       </td>
 

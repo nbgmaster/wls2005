@@ -1,8 +1,5 @@
-<<<<<<< HEAD
+
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $query_smilies = mysql_query("SELECT * from $smilies_tblname");
 

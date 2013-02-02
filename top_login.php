@@ -26,11 +26,7 @@ Login Community
 <td background="gfx/top_small_02.gif" width="190" height="104" valign="top" align="center">
 
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
 
  if($mode=="logout") { 
@@ -154,11 +150,7 @@ $reihengt = mysql_num_rows($showgt);
 
 
 <tr><td>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $laengelog =  strlen($usern); 
 
@@ -172,7 +164,6 @@ else { echo"<b> $usern</b></a>"; }
 </td></tr>
 
 <tr><td>
-<<<<<<< HEAD
 <?php  echo"<img src=images/arrow_r.gif><a href=index.php?page=user_profil> Profil bearbeiten</a>"; ?>
 </td></tr>
 
@@ -182,46 +173,23 @@ else { echo"<b> $usern</b></a>"; }
 
 <tr><td>
 <?php 
-=======
-<? echo"<img src=images/arrow_r.gif><a href=index.php?page=user_profil> Profil bearbeiten</a>"; ?>
-</td></tr>
-
-<tr><td>
-<? echo"<img src=images/arrow_r.gif><a href=index.php?page=user_gb&user_id=$id_hid> Mein Gästebuch ($reihengt)</a>"; ?>
-</td></tr>
-
-<tr><td>
-<?
->>>>>>> af2fff1... version1
 if($reihenctneu!="0") { $fett="<b>"; $fett2="</b>"; }
  echo"<img src=images/arrow_r.gif><a href=index.php?page=post_eingang> Posteingang ($fett$reihenctneu$fett2|$reihenct)</a>"; ?>
 </td></tr>
 
 <tr><td>
-<<<<<<< HEAD
 <?php  echo"<img src=images/arrow_r.gif><a href=index.php?page=post_ausgang> Postausgang ($reihenctaus)</a>"; ?>
 </td></tr>
 
 <tr><td>
 <?php  
-=======
-<? echo"<img src=images/arrow_r.gif><a href=index.php?page=post_ausgang> Postausgang ($reihenctaus)</a>"; ?>
-</td></tr>
-
-<tr><td>
-<? 
->>>>>>> af2fff1... version1
 echo"<img src=images/arrow_r.gif> <a href=index.php?mode=logout> Ausloggen</a>"; ?>
 </td></tr>
 </table>
 
 
 
-<<<<<<< HEAD
  <?php  }
-=======
- <? }
->>>>>>> af2fff1... version1
 else {
 
 echo"<form action=index.php?mode=login method=\"post\">";
@@ -243,11 +211,7 @@ echo"<form action=index.php?mode=login method=\"post\">";
 
 <td align="center">
 <font class=mini>
-<<<<<<< HEAD
 <?php  if($browser=="sonstigerBrowser") { echo"<br>"; } ?>
-=======
-<? if($browser=="sonstigerBrowser") { echo"<br>"; } ?>
->>>>>>> af2fff1... version1
 
 <br></font>
 <input type="submit" value="Einloggen" name="m_enter" style="border:1px solid #000000;width:90px;">
@@ -256,11 +220,7 @@ echo"<form action=index.php?mode=login method=\"post\">";
 
 
 
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 }}
 
 ?>

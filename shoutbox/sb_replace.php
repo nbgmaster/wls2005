@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 $text_sb= str_replace(":)", "<img src=smilies/z01.gif border=0>", $text_sb);

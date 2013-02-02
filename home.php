@@ -77,28 +77,16 @@ noch erweitern! Zudem sind die Kursfotos aus K12 und K13 in der Galerie zu bewun
 
 
 
-<<<<<<< HEAD
 <?php  include('geburtstagsticker.php'); ?>
 
 <br>
 
 <?php  include('terminkalender.php'); ?>
-=======
-<? include('geburtstagsticker.php'); ?>
-
-<br>
-
-<? include('terminkalender.php'); ?>
->>>>>>> af2fff1... version1
 
 
 </td><td width=10></td></tr></table>
 
-<<<<<<< HEAD
 <?php  if ($save_status_ehe == "1")  {  ?>
-=======
-<? if ($save_status_ehe == "1")  {  ?>
->>>>>>> af2fff1... version1
 
 <br>
 <b><span class="big">Jetzt können alle Ehemaligen unsere Abizeitung hier downloaden:</b><br><br>
@@ -109,8 +97,4 @@ noch erweitern! Zudem sind die Kursfotos aus K12 und K13 in der Galerie zu bewun
 <b>Dateigröße: 27 MB, Format: pdf</b>
 <br><br>
 
-<<<<<<< HEAD
 <?php  } ?>
-=======
-<? } ?>
->>>>>>> af2fff1... version1

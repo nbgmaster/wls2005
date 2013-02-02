@@ -4,11 +4,11 @@
 <form name="usercp_form" action="index.php?do=usercp&sec=edit_pw&module=change" method="post" onsubmit="return check_usercp()">
 
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 

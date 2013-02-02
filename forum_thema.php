@@ -42,11 +42,7 @@ txtarea.focus();
 }
 </script>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 $navi = mysql_query("select * from $cat_tblname WHERE id='$cat_id'");
@@ -183,15 +179,9 @@ Optionen:<br><br>
           </tr>
          </table> 
 
-<<<<<<< HEAD
 <input type=hidden value=<?php echo"$cat_id";?> name=cat_id>
 <input type=hidden value=<?php echo"$save_id";?> name=user_id>
 <input type=hidden value=<?php echo"$timestamp";?> name=post_time>
-=======
-<input type=hidden value=<?echo"$cat_id";?> name=cat_id>
-<input type=hidden value=<?echo"$save_id";?> name=user_id>
-<input type=hidden value=<?echo"$timestamp";?> name=post_time>
->>>>>>> af2fff1... version1
 <br>
 <center>
 <input class="input" type="submit" name="submit" accesskey="S" value="Thema erstellen">

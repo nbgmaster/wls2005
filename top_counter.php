@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $show_m = mysql_query("select * from $user_tblname");
 
@@ -82,62 +78,38 @@ Counter Stats
 <tr><td>
 <img src="images/arrow_r.gif"> Besucher gesamt
 </td><td align="right">
-<<<<<<< HEAD
 <b><?php  echo"$spacerzeig"; ?></b>
-=======
-<b><? echo"$spacerzeig"; ?></b>
->>>>>>> af2fff1... version1
 </td></tr>
 
 <tr><td>
 <img src="images/arrow_r.gif"> Besucher heute
 </td><td align="right">
-<<<<<<< HEAD
 <b><?php  echo"$spacerzeig2"; ?></b>
-=======
-<b><? echo"$spacerzeig2"; ?></b>
->>>>>>> af2fff1... version1
 </td></tr>
 
 <tr><td>
 <img src="images/arrow_r.gif"> Besucher gestern
 </td><td align="right">
-<<<<<<< HEAD
 <b><?php  echo"$spacerzeig3"; ?></b>
-=======
-<b><? echo"$spacerzeig3"; ?></b>
->>>>>>> af2fff1... version1
 </td></tr>
 
 <tr><td>
 <img src="images/arrow_r.gif"> Mitglieder gesamt
 </td><td align="right">
-<<<<<<< HEAD
 <b><?php  echo"$userg"; ?></b>
-=======
-<b><? echo"$userg"; ?></b>
->>>>>>> af2fff1... version1
 </td></tr>
 
 <tr><td>
 
 <img src="images/arrow_r.gif"> Mitglieder online
 </td><td align="right">
-<<<<<<< HEAD
 <b><?php  echo"$mit"; ?></b>
-=======
-<b><? echo"$mit"; ?></b>
->>>>>>> af2fff1... version1
 </td></tr>
 
 <tr><td>
 <img src="images/arrow_r.gif"> Gäste online
 </td><td align="right">
-<<<<<<< HEAD
 <b><?php  echo"$gaeste"; ?></b>
-=======
-<b><? echo"$gaeste"; ?></b>
->>>>>>> af2fff1... version1
 </td></tr>
 
 </table>

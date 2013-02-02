@@ -3,11 +3,11 @@
 
 <form action="index.php?do=admin&sec=groups&module=create" method="post" name="groupform" onsubmit="return checkForm(this)">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -21,11 +21,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -136,11 +136,11 @@
 </table>
 
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 

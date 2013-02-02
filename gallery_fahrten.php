@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 
 if($g_id=="") {
@@ -19,11 +15,7 @@ $g_data_main2 = mysql_query("select * from $gallery_tblname WHERE id='$g_id'");
 <td valign=top align=right class=middle>
 <font class=mini><br></font>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $g_data_main = mysql_query("select * from $gallery_tblname WHERE cat='fahrten'");
 $g_reihen_main = mysql_num_rows($g_data_main);
@@ -84,11 +76,7 @@ while($g_row_main = mysql_fetch_row($g_show_main)) {
 
 <td align=left valign=top>
 
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 echo"<a href=\"index.php?page=gallery&class=fahrten&g_id=$g_row_main[0]\">";
 echo"<img src=\"gallery/$g_row_main[1]/thumbs/$g_row_main[3].jpg\" class=bilder></a>";
 
@@ -145,11 +133,7 @@ $g_seiten = floor($g_seiten);
 
 <td align=left height=47>&nbsp;<img src=images/fahrten.jpg></td><td valign=top align=right class=middle>
 <font class=mini><br></font>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 echo"<img src=images/arrow_r.gif> <b>Album:</b> $album";
 echo" | <img src=images/arrow_r.gif>";
 

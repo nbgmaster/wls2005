@@ -1,8 +1,6 @@
-<<<<<<< HEAD
+
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
+
 
   $str = trim($str);
 

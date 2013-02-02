@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 if($do=="" or $do=="aendern") {
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
@@ -310,11 +306,7 @@ return false;
 <table><tr><td>
 <img src=images/community.jpg></td></tr></table>
 <form enctype="multipart/form-data" action="index.php?page=user_profil&do=aendern" method="post" name="f_change" onsubmit="return check_change()">
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  $show_profil = mysql_query("select * from $user_tblname WHERE UserID='$save_id'"); 
 

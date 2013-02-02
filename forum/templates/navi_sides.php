@@ -1,16 +1,16 @@
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="0" cellspacing="1">
                
   <tr>
 
   <?php    if ($check_rows > $break)  {   ?>
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="0" cellspacing="1">
                
   <tr>
 
   <?   if ($check_rows > $break)  {   ?>
->>>>>>> af2fff1... version1
+
 
     <td>
 
@@ -24,11 +24,8 @@
 
                  <select class="select" style="width:40px;" ONCHANGE="location = this.options[this.selectedIndex].value;">
 
-<<<<<<< HEAD
+
                  <?php  
-=======
-                 <? 
->>>>>>> af2fff1... version1
 
                    for ($count = 1;$count <= $maxpages; $count++)  {
 
@@ -60,11 +57,11 @@
  
        </td>
 
-<<<<<<< HEAD
+
        <?php  
-=======
+
        <? 
->>>>>>> af2fff1... version1
+
 
        } 
  
@@ -72,7 +69,7 @@
 
        <td align="right" width="180">
 
-<<<<<<< HEAD
+
        <?php   if ($f_status_permission == "1" && $granted_write == "1")  { ?>
 
        <a href="index.php?f=<?php  echo"$f"; ?>&do=newtopic">
@@ -96,7 +93,7 @@
        <a href="index.php?f=<?php  echo"$f"; ?>&do=newtopic">
 
        <img src="images/templates/<?php  echo"$template"; ?>/icon_newthread.gif" border="0">
-=======
+
        <?  if ($f_status_permission == "1" && $granted_write == "1")  { ?>
 
        <a href="index.php?f=<? echo"$f"; ?>&do=newtopic">
@@ -120,13 +117,13 @@
        <a href="index.php?f=<? echo"$f"; ?>&do=newtopic">
 
        <img src="images/templates/<? echo"$template"; ?>/icon_newthread.gif" border="0">
->>>>>>> af2fff1... version1
+
 
        </a> 
 
        &nbsp;
 
-<<<<<<< HEAD
+
        <?php  if ($f_status == "1")  { ?>
 
        <a href="index.php?t=<?php  echo"$t"; ?>&do=reply">
@@ -154,7 +151,7 @@
        </td>
 
        <?php  } ?>
-=======
+
        <? if ($f_status == "1")  { ?>
 
        <a href="index.php?t=<? echo"$t"; ?>&do=reply">
@@ -182,7 +179,7 @@
        </td>
 
        <? } ?>
->>>>>>> af2fff1... version1
+
 
        </td>
 

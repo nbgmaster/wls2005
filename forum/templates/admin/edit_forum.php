@@ -4,11 +4,11 @@
 <form name="admin_form" action="index.php?do=admin&sec=edit_cat&module=change" method="post" onsubmit="return check_admin()">
 
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -20,11 +20,11 @@
 
          <td  class="tablea" width="50%">
 
-<<<<<<< HEAD
+
          <input class="input" type="text" name="forum" value="<?php  echo"".$row_forum["forum"].""; ?>" maxlength="40" size="40">
-=======
+
          <input class="input" type="text" name="forum" value="<? echo"".$row_forum["forum"].""; ?>" maxlength="40" size="40">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -40,11 +40,11 @@
 
          <td  class="tablea" width="50%">
 
-<<<<<<< HEAD
+
          <textarea style="width:100%; height:100px;" name="description"><?php  echo"".$row_forum["description"].""; ?></textarea>
-=======
+
          <textarea style="width:100%; height:100px;" name="description"><? echo"".$row_forum["description"].""; ?></textarea>
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -62,17 +62,17 @@
 
          <select name="f_cat" style="width:120px;">
 
-<<<<<<< HEAD
+
          <?php 
-=======
+
          <?
->>>>>>> af2fff1... version1
+
 
            $query_c = mysql_query("SELECT * from $c_tblname");
 
            while ($row_c = mysql_fetch_assoc($query_c))  { ?>
 
-<<<<<<< HEAD
+
                   <option value="<?php  echo"".$row_c[id].""; ?>"
 
                   <?php  if($row_c[id] == $row_forum[cat])  { ?>
@@ -88,7 +88,7 @@
                   </option>
  
            <?php  } 
-=======
+
                   <option value="<? echo"".$row_c[id].""; ?>"
 
                   <? if($row_c[id] == $row_forum[cat])  { ?>
@@ -104,7 +104,7 @@
                   </option>
  
            <? } 
->>>>>>> af2fff1... version1
+
 
          ?>
 
@@ -126,11 +126,11 @@
 
          <select name="f_status" style="width:120px;">
 
-<<<<<<< HEAD
+
          <?php  
-=======
+
          <? 
->>>>>>> af2fff1... version1
+
 
            $query_f = mysql_query("SELECT * from $f_tblname WHERE id='$f'");
 
@@ -141,20 +141,20 @@
                       <option value="1" selected>offen</option>
                       <option value="0">geschlossen</option>
 
-<<<<<<< HEAD
+
                   <?php  } else { ?>
-=======
+
                   <? } else { ?>
->>>>>>> af2fff1... version1
+
 
                       <option value="1">offen</option>
                       <option value="0" selected>geschlossen</option>
 
-<<<<<<< HEAD
+
                   <?php  } 
-=======
+
                   <? } 
->>>>>>> af2fff1... version1
+
 
            }
 
@@ -178,11 +178,11 @@
 
          <select name="f_read" style="width:120px;">
 
-<<<<<<< HEAD
+
          <?php  
-=======
+
          <? 
->>>>>>> af2fff1... version1
+
 
            $query_read = mysql_query("SELECT * from $f_tblname WHERE id='$f'");
 
@@ -234,11 +234,11 @@
 
          <select name="f_write" style="width:120px;">
 
-<<<<<<< HEAD
+
          <?php  
-=======
+
          <? 
->>>>>>> af2fff1... version1
+
 
            $query_write = mysql_query("SELECT * from $f_tblname WHERE id='$f'");
 
@@ -291,11 +291,11 @@
 
     <select name="modids[]" style="width:200px;" size="6" multiple="multiple">
 
-<<<<<<< HEAD
+
     <?php 
-=======
+
     <?
->>>>>>> af2fff1... version1
+
 
           $query_users = mysql_query("SELECT * from $user_tblname ORDER by UserName");
 
@@ -331,25 +331,25 @@
 
    </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
        <td align="center" class="tableb">
 
-<<<<<<< HEAD
+
        <input class="input" type="hidden" value="<?php  echo"".$row_forum["cat"].""; ?>" name="actual_cat">
        <input class="input" type="hidden" value="<?php  echo"".$row_forum["position"].""; ?>" name="actual_position">
        <input class="input" type="hidden" value="<?php  echo"$f"; ?>" name="f">
-=======
+
        <input class="input" type="hidden" value="<? echo"".$row_forum["cat"].""; ?>" name="actual_cat">
        <input class="input" type="hidden" value="<? echo"".$row_forum["position"].""; ?>" name="actual_position">
        <input class="input" type="hidden" value="<? echo"$f"; ?>" name="f">
->>>>>>> af2fff1... version1
+
 
        <input class="input" type="submit" name="send_admin_data" value="Forum ändern">
 

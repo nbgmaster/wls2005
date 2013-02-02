@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 <?php 
-=======
+
 <?
->>>>>>> af2fff1... version1
+
 
 
   $board_domain = "$_SERVER[SERVER_NAME]";

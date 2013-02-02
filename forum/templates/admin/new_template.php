@@ -2,11 +2,11 @@
 
 <form name="tplform" action="index.php?do=admin&sec=templates&module=new" method="post" onsubmit="return checkForm(this)">
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -20,11 +20,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -36,21 +36,21 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
     <td class="tableb" width="50%">Verzeichnis, in dem alle Template Bilder liegen müssen</td>
 
-<<<<<<< HEAD
+
     <td class="tablea" width="50%"><?php  echo"http://$board_domain$board_direction"; ?>images/templates/"Template Name"</td>
-=======
+
     <td class="tablea" width="50%"><? echo"http://$board_domain$board_direction"; ?>images/templates/"Template Name"</td>
->>>>>>> af2fff1... version1
+
 
   </tr>
 
@@ -58,21 +58,21 @@
 
     <td class="tableb">Banner URL</td>
 
-<<<<<<< HEAD
+
     <td class="tablea"><?php  echo"http://$board_domain$board_direction"; ?>images/templates/"Template Name"/banner.jpg</td>
-=======
+
     <td class="tablea"><? echo"http://$board_domain$board_direction"; ?>images/templates/"Template Name"/banner.jpg</td>
->>>>>>> af2fff1... version1
+
 
   </tr>
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -84,21 +84,21 @@
                
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
     <td class="tablea" align="center">
 
-<<<<<<< HEAD
+
     <img src="images/templates/<?php  echo"$template"; ?>/arrow_r.gif"> 
-=======
+
     <img src="images/templates/<? echo"$template"; ?>/arrow_r.gif"> 
->>>>>>> af2fff1... version1
+
 
     Für eine optimale Forumsansicht mit Banner sollte der Banner genau <b>"Forum Breite - 2 Pixel" Pixel breit</b> sein!
 
@@ -108,11 +108,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -132,11 +132,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -150,11 +150,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -230,11 +230,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -248,11 +248,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -312,11 +312,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -330,11 +330,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="4" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
 
   <tr>
 
@@ -470,11 +470,11 @@
 
 </table>
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 

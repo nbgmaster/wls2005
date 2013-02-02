@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   if($html_disable == "0")     { $html_mode    = "An"; } else { $html_mode    = "Aus"; }
   if($smilies_disable == "0")  { $smilies_mode = "An"; } else { $smilies_mode = "Aus"; }

@@ -1,9 +1,5 @@
 <table cellspacing=0 cellpadding=0><tr><td style=line-height:18px; align=center>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 $datumb = date("d.m");
 $yearb = date("Y");

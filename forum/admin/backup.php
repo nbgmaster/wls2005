@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php  
-=======
-<? 
->>>>>>> af2fff1... version1
 
   if (!isset($start_backup)) {
 
@@ -70,11 +66,7 @@
 
 <input type="submit" name="start_backup" value="Datensicherung starten">
 
-<<<<<<< HEAD
 <?php  }
-=======
-<? }
->>>>>>> af2fff1... version1
 
 else  {
 

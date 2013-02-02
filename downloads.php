@@ -1,10 +1,6 @@
 <br><br><img src=images/downloads.jpg>
 <br><br>
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
  if($cookie_check_abicalypse=="allowed" && $save_id!="") 
 

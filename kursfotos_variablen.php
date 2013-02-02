@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
 if($p_bild=="gesamtfoto")  {  $bildname="Gesamtes Kursfoto K12";   }
 if($p_bild=="mathe")  {  

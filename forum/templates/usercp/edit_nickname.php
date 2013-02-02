@@ -4,11 +4,11 @@
 <form name="usercp_form" action="index.php?do=usercp&sec=edit_nickname&module=change" method="post" onsubmit="return check_usercp()">
 
 
-<<<<<<< HEAD
+
 <table width="<?php  echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
-=======
+
 <table width="<? echo"$width"; ?>" cellpadding="3" cellspacing="1" class="tableinborder">
->>>>>>> af2fff1... version1
+
                
   <tr>
 
@@ -36,11 +36,11 @@
 
          <td  class="tablea" width="50%">
 
-<<<<<<< HEAD
+
          <input type="text" class="input" name="nickname" maxlength="20" size="40" value="<?php  echo"$userdata_name"; ?>">
-=======
+
          <input type="text" class="input" name="nickname" maxlength="20" size="40" value="<? echo"$userdata_name"; ?>">
->>>>>>> af2fff1... version1
+
 
          </td>
 
@@ -56,11 +56,11 @@
 
          <td  class="tablea" width="50%">
 
-<<<<<<< HEAD
+
          <input type="text" class="input" name="nickname2" maxlength="20" size="40" value="<?php  echo"$userdata_name"; ?>">
-=======
+
          <input type="text" class="input" name="nickname2" maxlength="20" size="40" value="<? echo"$userdata_name"; ?>">
->>>>>>> af2fff1... version1
+
 
          </td>
 

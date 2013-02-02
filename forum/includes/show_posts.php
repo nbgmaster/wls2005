@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?php 
-=======
-<?
->>>>>>> af2fff1... version1
 
   $query_threads_permissions = mysql_query("SELECT * from $threads_tblname WHERE id = '$t'");  
   
